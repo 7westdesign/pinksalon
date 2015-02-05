@@ -1,0 +1,525 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Moxie Salon</title>
+	<script type="text/javascript" src="jquerymail.js"></script>
+	<script type="text/javascript" src="ajaxmail.js"></script>
+
+<link rel="stylesheet" href="lightbox/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="lightbox/lightbox.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="js/jCarouselLite.css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
+<script type="text/javascript" src="js/jquery-1.js"></script>
+<script type="text/javascript" src="js/jquery_002.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<!--<script type="text/javascript" src="js/functions.js"></script>-->
+<script type="text/javascript" src="nivo-slider/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/jCarouselLite.js"></script>
+<!--<script type="text/javascript" src="js/validation.js"></script>-->
+<script language="javascript" type="text/javascript" src="js/jquery.slidingGallery-1.2.min.js"></script>
+
+	<script language="javascript" type="text/javascript">
+		!window.jQuery && document.write('<script src="fancybox/jquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="fancybox/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="fancybox/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="fancybox/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("a.homePics").fancybox({
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+
+			$("a[rel=Featured_Images]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+		});
+	</script>
+
+<script language="javascript" type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+	    $(window).load(function() {
+        $('#slider2').nivoSlider();
+    });
+</script>
+<script language="javascript" type="text/javascript">
+        $(function() {
+            $('.gallery img').slidingGallery().hide();
+        });
+		 $(document).ready(function() {
+            $('#j_gallery').fancybox();
+        });
+setTimeout(function() {
+  if (location.hash) {
+    window.scrollTo(0, 0);
+  }
+}, 1);
+
+    </script>
+<style>
+#error {
+	color:red;
+	font-size:10px;
+	display:none;
+}
+.needsfilled {
+	background:#005356;
+	color:white;
+}
+</style>
+
+</head>
+<body>
+<div id="wrapper">
+<div id="header-container">
+
+
+<div id="header_line"><!--
+<hr noshade="noshade" style="color:#000000;border-width: 1px;border-bottom-color: purple;" mce_style="color:#000000;border-width: 1px;border-bottom-color: purple;" />
+--></div>
+<div id="logo"><img src="images/logo.png" width="590" height="350" alt="Moxie Hair Design Logo" /></div>
+<div id="social"><a href="http://www.facebook.com/moxiehairanddesignstudio" target="_blank"><img src="images/fb.png" width="39" height="36" alt="Join us on Facebook" /></a>&nbsp;<a href="http://www.twitter.com/themoxiecrew" target="_blank"><img src="images/tw.png" width="39" height="35" alt="Follow us on Twitter" /></a></div>
+</div>
+<!--Start Content-->
+<script language="javascript"><!--
+function changecolor (i)
+{
+//    document.getElementById(i). style.color='#8cb85c'
+if(document.getElementById)
+{
+    document.getElementById("ahome").style.color = "#ffffff";
+    document.getElementById("aservices").style.color = "#ffffff";
+    document.getElementById("astylists").style.color = "#ffffff";
+    document.getElementById("agallery").style.color = "#ffffff";
+    document.getElementById("acontact").style.color = "#ffffff";
+    document.getElementById(i).style.color = "#8cb85c";
+}
+else if(document.all)
+{
+    document.all["ahome"].style.color = "#ffffff";
+    document.all["aservices"].style.color = "#ffffff";
+    document.all["astylists"].style.color = "#ffffff";
+    document.all["agallery"].style.color = "#ffffff";
+    document.all["acontact"].style.color = "#ffffff";
+    document.all[i].color = "#8cb85c";
+}
+// makes it so the page does not go to test.html
+return false;
+}
+// --></script>
+<!--Navigation-->
+<div id="navcontainer">
+<ul class="menu">
+<li><a href="Home.html#home" id="ahome" onclick="changecolor(&quot;ahome&quot;);">Home</a></li>
+<li><a href="Home.html#services" id="aservices" onclick="changecolor(&quot;aservices&quot;);">Services</a></li>
+<li><a href="Home.html#stylists" id="astylists" onclick="changecolor(&quot;astylists&quot;);">Stylists</a></li>
+<li><a href="Home.html#gallery" id="agallery" onclick="changecolor(&quot;agallery&quot;);">Gallery</a></li>
+<li><a href="Home.html#contact" id="acontact" onclick="changecolor(&quot;acontact&quot;);">Contact</a></li>
+</ul>
+</div>
+<!--End Nav-->
+<script type="text/javascript"><!--
+	$(function() {
+    $(".jCarouselLite").jCarouselLite({
+        btnNext: ".next",
+        btnPrev: ".prev",
+		
+    });
+});
+// --&gt;
+// --&gt;
+// --&gt;
+// --&gt;
+// --&gt;
+// --&gt;
+// --&gt;
+// --&gt;
+// --&gt;
+// --&gt;
+// --&gt;
+// --&gt;
+// --&gt;
+// --&gt;</script>
+<!--Begin Stage-->
+<div id="content-container">
+<div id="content">
+<div id="contentScroller"><!--Start Home Page-->
+<div id="home" class="page">
+<div id="collage">
+
+<div class="jCarouselLite">
+<ul>
+<li><a href="images/salonpic2.jpg" rel="lightbox"><img src="images/thumb_salonpic2.jpg" width="250" height="170" /></a></li>
+<li><a href="images/salonpic3.jpg" rel="lightbox"><img src="images/thumb_salonpic3.jpg" width="250" height="170" /></a></li>
+<li><a href="images/salonpic4.jpg" rel="lightbox"><img src="images/thumb_salonpic4.jpg" width="250" height="170" /></a></li>
+<li><a href="images/salonpic6.jpg" rel="lightbox"><img src="images/thumb_salonpic6.jpg" width="250" height="170" /></a></li>
+<li><a href="images/salonpic7.jpg" rel="lightbox"><img src="images/thumb_salonpic7.jpg" width="250" height="170" /></a></li>
+<li><a href="images/salonpic8.jpg" rel="lightbox"><img src="images/thumb_salonpic8.jpg" width="250" height="170" /></a></li>
+<li><a href="images/salonpic9.jpg" rel="lightbox"><img src="images/thumb_salonpic9.jpg" width="250" height="170" /></a></li>
+<li><a href="images/salonpic10.jpg" rel="lightbox"><img src="images/thumb_salonpic10.jpg" width="250" height="170" /></a></li>
+</ul>
+<div id="buttons">
+<div id="right"><a href="Home.html#" class="prev"><img src="images/next-but.png" /></a></div>
+</div>
+</div>
+
+</div>
+<div id="text"><span class="anfang1">H</span> aving always dreamed of working in an environment that represented her love for art and design as well as hair,
+            Kari Lisak created Moxie. It started out as a boutique salon with four stations. Word spread quickly of the unique
+            salon and within a few months grew from a staff of four stylists to eight. With the blessing of having more stylists and
+            business than our space could handle, Kari made the choice to expand to the building next door and more than double
+            the space Moxie now has 10 stations and a pedicure manicure area within an environment that is like no other.
+            <br /><br /> At Moxie you will quickly see that we are not only an amazing team of talented stylists, but a very close family.
+            You will feel at home the second you walk in and be planning your next visit to Moxie while thinking of all the
+            friends you want to share this amazing discovery with.</div>
+<!--end home--></div>
+<div class="clear"></div>
+<!--Start Services Page-->
+<div id="services" class="page">
+<div id="left"><!--<img src="images/ser-sidebar.png" mce_src="images/ser-sidebar.png" width="310" height="387" alt="Hair Cuts" /> -->
+<div id="servicesHeading">Services</div>
+<div id="servicesPoints">
+<ul>
+<li>Women's Haircut</li>
+<li>Men's Haircut</li>
+<li>Blow Dry</li>
+<li>Base Color</li>
+<li>Full Color</li>
+<li>Highlights: Foiling, Balayge, Ombre</li>
+<li>Color Correction</li>
+<li>Special Event Styling</li>
+<li>Keratin &amp; Brazilian Blow Dry Treatments</li>
+<li>Hair Extensions</li>
+<li>Aveda Custom Conditioning Treatments</li>
+<li>Spa Manicures &amp; Pedicures</li>
+</ul>
+</div>
+</div>
+<div id="right">
+<div class="slider-wrapper theme-default">
+<div class="ribbon"></div>
+<div id="slider" class="nivoSlider"><img src="images/servicesphotos/servicespic3.jpg" data-transition="fade" border="0" /> <img src="images/servicesphotos/servicespic2.jpg" data-transition="fade" border="0" /> <img src="images/servicesphotos/servicespic1.jpg" data-transition="fade" border="0" /> <img src="images/servicesphotos/servicespic4.jpg" data-transition="fade" border="0" /> <img src="images/servicesphotos/servicespic5.jpg" data-transition="fade" border="0" /> <img src="images/servicesphotos/servicespic6.jpg" data-transition="fade" border="0" /> <img src="images/servicesphotos/servicespic7.jpg" data-transition="fade" border="0" /> <img src="images/servicesphotos/servicespic8.jpg" data-transition="fade" border="0" /></div>
+</div>
+</div>
+<div class="clear"></div>
+<!--<a href="#gallery" mce_href="#gallery">
+<h1 align="right" style="margin-right:105px;" mce_style="margin-right:105px;" class="menu">Featured Gallery</h1>
+</a>-->
+            <!--  <img src="images/slideright.png" mce_src="images/slideright.png" width="445" height="315" /></div>
+</div>
+--></div>
+<!--end services--> <!--Start gallery-->
+<div id="gallery" class="page"><iframe frameborder="0" height="570px" width="100%" scrolling="auto" src="minishowcase/index.html"></iframe></div>
+<!--end gallery--> <!--Start Contact Page-->
+<div id="contact" class="page">
+<div id="left">
+<div id="myform">
+<div id="servicesHeading">Contact</div>
+<div id="notice_top">Want to book an appointment? Have a question or comment?<br /> We'd love to hear from you!</div>
+<div style="padding-top: 12px;"></div>
+<form id="formail" method="post">
+<div id="messageOK">Thank you! Message Sent!</div>
+<div id="messageERROR">ERROR: Message Not Sent!</div>
+<ul>
+<li> <label class="label1">*Name</label> <input class="input1" type="text" name="name" id="name" /> <br /> </li>
+<li> <label class="label2">*Email</label> <input class="input2" type="text" name="email" id="email" /> <br /> </li>
+<li> <label class="label3">*Subject</label> <input class="input3" type="text" name="subject" id="subject" /> </li>
+<li> <label class="label4">Message</label> <textarea class="itextarea" name="message" id="message"></textarea> </li>
+<li id="button"> <!--<input type="image" name="send" src="images/button.png" mce_src="images/button.png" width="60" height="35" />-->
+                      <input type="image" name="sendmail" id="sendmail" src="images/button.png" /> </li>
+<!--
+<li id="thankyou"><img src="images/thankyou.png" mce_src="images/thankyou.png" /></li>
+-->
+<li id="thankyou"> </li>
+</ul>
+<div id="response"></div>
+</form>
+<div id="notice">*Required information.</div>
+<div id="aptbookingnotice">If booking an appointment, please list "appointment" in the subject line.</div>
+
+<!--<form id="formail" action="" method ="post"> 
+<table width="100%" style="border: 0px solid red;" mce_style="border: 0px solid red;" cellspacing="10" cellpadding="5">
+<tr>
+<td><label>*Name : </label> <input type="text" name="name" id="name" class="inputtext" /></td>
+<td valign="top" rowspan="3" align="right"><label style="text-align: left;padding-left: 6px;" mce_style="text-align: left;padding-left: 6px;">Message :</label> <textarea name="text2" id="text2" cols="40" rows="8" style="border-width: 0px;" mce_style="border-width: 0px;"></textarea></td>
+</tr>
+<tr>
+<td colspan="2"><label>*Email :</label> <input type="text" name="mail" id="mail" /></td>
+</tr>
+<tr>
+<td colspan="2"><label>*Subject : </label> <input type="text" name="subject" id="subject" /></td>
+</tr>
+<tr>
+<td colspan="2" align="right"><input type="image" name="sendmail" id="sendmail" src="images/button.png" mce_src="images/button.png" /></td>
+</tr>
+<tr>
+<td colspan="2" align="left">
+<div id="response"></div>
+</td>
+</tr>
+</table>
+</form>--></div>
+</div>
+<div id="right"><img src="images/contactright.png" width="214" height="204" /></div>
+</div>
+
+<!--end contact--> <!--Start Contact2 Page--> <!--
+<div id="contact2" class="page">
+<div id="left">
+<div id="myform"><form method="post" action="contact.php" onsubmit="return:false" class="iform">
+<div id="messageOK">Thank you! Message Sent!</div>
+<div id="messageERROR">ERROR: Message Not Sent!</div>
+<ul>
+<li> <label>Name : </label> <input class="input1" type="text" name="name" id="name" /> <br /> </li>
+<li> <label>Email : </label> <input class="input2" type="text" name="email" id="email" /> <br /> </li>
+<li> <label>Subject : </label> <input class="input3" type="text" name="subject" id="subject" /> </li>
+<li> <label>Message : </label> <textarea class="itextarea" name="message" id="message"></textarea> </li>
+<li id="button"> <input type="image" name="send" src="images/button.png" mce_src="images/button.png" width="60" height="35" onclick="sendForm()" /> </li>
+<li id="thankyou"><img src="images/thankyou.png" mce_src="images/thankyou.png" /></li>
+</ul>
+</form></div>
+</div>
+<div id="right"><img src="images/contactright.png" mce_src="images/contactright.png" width="214" height="204" /></div>
+</div>
+-->
+          <!--end contact2--> <!--Start Stylists1 Page--> <!--Start Stylists1 Page-->
+<div class="page" id="stylists">
+<div id="stylistsHeading">Stylists</div>
+<div id="left"><a href="Home.html#kari"><img width="250" height="350" src="images/kari.png" /></a></div>
+<div id="center"><a href="Home.html#julz"><img width="250" height="350" src="images/julz.png" /></a></div>
+<div id="right"><a href="Home.html#jenifer"><img src="images/jenifer.png" width="250" height="350" /></a>
+<div class="more"><a href="Home.html#stylists2"><img width="60" height="24" src="images/more.png" /></a></div>
+</div>
+</div>
+<!--Start Stylists2 Page
+                                
+                                $("div#search-filters").offset({ top: 500, left: 500 });
+--> <!--Start Stylists2 Page-->
+<div id="stylists2" class="page">
+<div id="stylistsHeading">Stylists</div>
+<div id="left"><a href="Home.html#adrianne"><img width="250" height="350" src="images/adrianne.png" /></a></div>
+<div id="center"><a href="Home.html#stacey"><img src="images/stacey.png" width="250" height="350" /></a></div>
+<div id="right"><a href="Home.html#brandy"><img src="images/brandy.png" width="250" height="350" /></a>
+<div class="moreback"><a href="Home.html#stylists3"><img name="morebackbut" src="images/moreback-but.png" width="72" height="51" border="0" id="morebackbut" usemap="#m_morebackbut" /> 
+<map name="m_morebackbut" id="m_morebackbut">
+<area shape="rect" coords="14,28,59,48" href="Home.html#stylists"></area>
+<area shape="rect" coords="14,0,59,20" href="Home.html#stylists3"></area> 
+</map>
+</a></div>
+</div>
+</div>
+<div id="stylists3" class="page">
+<div id="stylistsHeading">Stylists</div>
+<div id="left"><a href="Home.html#nathan"><img src="images/nathan.png" width="250" height="350" /></a></div>
+<div id="center"><a href="Home.html#blayke"><img src="images/blayke.png" width="250" height="350" /></a></div>
+<div id="right"><a href="Home.html#starr"><img src="images/starr.png" width="250" height="350" /></a>
+<div class="more"><a href="Home.html#stylists2"><img src="images/back.png" width="60" height="24" /></a></div>
+</div>
+</div>
+<!--Kari-->
+<div id="kari" class="page">
+<div id="left">
+<div id="servicesHeading" style="padding-bottom: 20px;">Kari</div>
+<img src="images/kariquote.png" border="0" />
+<div id="servicesPoints" style="text-align: justify;line-height: 25px;padding-bottom: 20px;">Kari Lisak is proud to be the owner of Moxie and to have
+                created a unique environment with an abundance of style,
+                passion and talent. She has had an amazing 19 years of hair
+                styling. With an art background, Kari thinks of every
+                hairstyle and color application as an art piece. Dry cutting
+                and free hand hair coloring are a few favorites among her
+                many specialities. Having a love for beautiful, stylish, long
+                hair, she has built a trust with many clients that cherish
+                their long hair and appreciate her understanding of it.
+                She wants every client to feel at home at Moxie and
+                makes that her priority.</div>
+<!--<img src="images/kari-text.png" mce_src="images/kari-text.png" width="418" height="419" />-->
+<div id="back"><a href="Home.html#stylists"><img src="images/back.png" width="59" height="24" /></a></div>
+</div>
+<div id="right"><img src="images/kari-pic.png" border="1" width="308" height="385" /></div>
+</div>
+<!--Julz-->
+<div id="julz" class="page">
+<div id="left">
+<div id="servicesHeading" style="padding-bottom: 20px;">Julz</div>
+<img src="images/julzquote.png" border="0" />
+<div id="servicesPoints" style="text-align: justify;line-height: 25px;padding-bottom: 20px;">Redken Certified Colorist/ Vidal Sassoon Master Stylist.
+                With an artisitic eye and passion for hair, Julz has found her
+                edge that keeps her sharp and creative. With over 10 years
+                experience, she makes it her priority to seek top results. She
+                specializes in anything from traditional to edgy and is certified
+                for numerous types of hair extensions and the Brazillion Blowout
+                Treatment. Julz will not only give you expert advice and custom
+                design the look you want, but also develop a personal relationship
+                with you as her client.</div>
+<!--<img src="images/julz-text.png" mce_src="images/julz-text.png" width="418" height="419" />-->
+<div id="back"><a href="Home.html#stylists"><img src="images/back.png" width="59" height="24" /></a></div>
+</div>
+<div id="right"><img src="images/julz-pic.png" width="298" height="373" /></div>
+</div>
+<!--Adrianne-->
+<div id="adrianne" class="page">
+<div id="left">
+<div id="servicesHeading" style="padding-bottom: 20px;">Adrianne</div>
+<img src="images/adriannequote.png" border="0" />
+<div id="servicesPoints" style="text-align: justify;line-height: 25px;padding-bottom: 20px;">Adrianne brings 17 years of experience from Seattle to California.
+                Her passion, creativity and impeccable attention to detail keeps
+                her clients coming back for more. She specializes in various types
+                of hair extensions, color, precision cutting and Brazilian Blowout
+                Treatments. Adrianne is fun loving, charismatic and full of spunk
+                making each client's experience one of a kind.</div>
+<!--<img src="images/adrianne-text.png" mce_src="images/adrianne-text.png" width="460" height="293" />-->
+<div style="padding-top:100px;"></div>
+<div id="back"><a href="Home.html#stylists2"><img src="images/back.png" width="59" height="24" /></a></div>
+</div>
+<div id="right"><img src="images/adrianne-pic.png" width="316" height="391" /></div>
+</div>
+<!--Jenifer-->
+<div id="jenifer" class="page">
+<div id="left">
+<div id="servicesHeading" style="padding-bottom: 20px;">Jenifer</div>
+<img src="images/jeniferquote.png" border="0" />
+<div id="servicesPoints" style="text-align: justify;line-height: 25px;padding-bottom: 20px;">Jenifer Morgan is a California native with with a passion for the
+                "beachy SolCal look". She is proud to be a part of the opening
+                of Moxie. She has extensive training with Aveda products as
+                well as a certified Aveda colorist. Her love of fashion and
+                beauty has had her in the salon industry for the last 12 years
+                with many more to come. She is driven by continued education
+                to always be a step ahead. She loves doing all color, hair cutting
+                and extensions.</div>
+<!--<img src="images/jenifer-text.png" mce_src="images/jenifer-text.png" width="418" height="419" />-->
+<div id="back"><a href="Home.html#stylists"><img src="images/back.png" width="59" height="24" /></a></div>
+</div>
+<div id="right"><img src="images/jenifer-pic.png" width="308" height="458" /></div>
+</div>
+<!--</div>
+</div>
+-->
+          <!--Stacey-->
+<div id="stacey" class="page">
+<div id="left">
+<div id="servicesHeading" style="padding-bottom: 20px;">Stacey</div>
+<img src="images/stacyquote.png" border="0" />
+<div id="servicesPoints" style="text-align: justify;line-height: 25px;padding-bottom: 20px;">Stacey has been in the beauty indeustry since 2005. She loves
+                to put a modern twist on the classic beauty of the 30's,  40's
+                and 50's. Stacey believes in continuing education with the rest
+                of the Moxie team. She specializes in the Brazilian Blowout
+                treatment along with cutting, coloring and extensions. Stacey
+                will have you feeling like a part of the Moxie family before
+                you even sit in her chair.</div>
+<!--<img src="images/stacey-text.png" mce_src="images/stacey-text.png" width="418" height="419" />-->
+<div id="back"><a href="Home.html#stylists2"><img src="images/back.png" width="59" height="24" /></a></div>
+</div>
+<div id="right"><img src="images/stacey-pic.png" width="308" height="391" /></div>
+</div>
+<!--Brandy-->
+<div id="brandy" class="page">
+<div id="left">
+<div id="servicesHeading" style="padding-bottom: 20px;">Brandy</div>
+<img src="images/Brandyquote.png" border="0" />
+<div id="servicesPoints" style="text-align: justify;line-height: 25px;padding-bottom: 20px;">Born and raised in the Salon business, Brandy found her
+                artist's canvas right here in Camarillo 8 years ago. under the
+                wing of her Barber mother, molded by Camarillo's finest, she
+                took a leap of faith to her new home at Moxie. Brandy has
+                extensive experience in  grey coverage, iron sets, special occasion
+                up-do's as well as men's and women's haircuts.</div>
+<!--<img src="images/brandy-text.png" mce_src="images/brandy-text.png" width="418" height="419" />-->
+<div id="back"><a href="Home.html#stylists2"><img src="images/back.png" width="59" height="24" /></a></div>
+</div>
+<div id="right"><img src="images/brandy-pic.png" width="318" height="393" /></div>
+</div>
+<!--Nathan-->
+<div id="nathan" class="page">
+<div id="left">
+<div id="servicesHeading" style="padding-bottom: 20px;">Nathan</div>
+<div id="servicesPoints" style="text-align: justify;line-height: 25px;padding-bottom: 20px;">Nathan is a dynamic Hair Stylist with extensive experience in 
+                specialized beauty care including hair cutting, coloring (Wella 
+                and Keune), extensions, dreads, braiding, weaves, color mixing 
+                with synthetic hair, hair piece analysis and placement, up-do's
+                and make-up. Trained at The Vidal Sassoon Academy he has
+                been doing hair for over 10 years. He is now an international 
+                platform artist with Keratin Complex and involved with the
+                launch of their new color line. Nathan also works for the New
+                York Blow Dry Bar in the meat packing district, and has been 
+                educating salons across the country on how to perfect the
+                "Art of the perfect blow dry." He has also worked for Moroccan
+                Oil, Christophe Salon in Beaverly Hills and John of Italy. Nathan 
+                loves every aspect of the hair industry, he believes that hair is a
+                definite art form.</div>
+<!--<img src="images/nathan-text.png" mce_src="images/nathan-text.png" width="458" height="439" />-->
+<div id="back"><a href="Home.html#stylists3"><img src="images/back.png" width="59" height="24" /></a></div>
+</div>
+<div id="right"><img src="images/nathan-pic.png" width="316" height="391" /></div>
+</div>
+<!--Blayke-->
+<div id="blayke" class="page">
+<div id="left">
+<div id="servicesHeading" style="padding-bottom: 20px;">Blayke</div>
+<div id="servicesPoints" style="text-align: justify;line-height: 25px;padding-bottom: 20px;">Blayke specializes in blonde hair, weaves and extensions and
+                expresses her desire to design and create through the hair that
+                she styles. She believes that a great hairstylist can help people
+                realize how good they can look and how amazing that makes 
+                them feel. That love for wanting to help others feel fabulous
+                is what led her to a career as a hairstylist. She can hardly
+                believe she calls it work.</div>
+<!--<img src="images/blayke-text.png" mce_src="images/blayke-text.png" width="435" height="263" />-->
+<div style="padding-top:100px;"></div>
+<div id="back"><a href="Home.html#stylists3"><img src="images/back.png" width="59" height="24" /></a></div>
+</div>
+<div id="right"><img src="images/blayke-pic.png" width="308" height="458" /></div>
+</div>
+<!--Starr-->
+<div id="starr" class="page">
+<div id="left">
+<div id="servicesHeading" style="padding-bottom: 20px;">Starr</div>
+<img src="images/starrquote.png" border="0" />
+<div id="servicesPoints" style="text-align: justify;line-height: 25px;padding-bottom: 20px;">Starr a gifted and talented stylist has been exercising her
+                talents with hair for over 5 years. From short sassy curls
+                to long sleek layers she loves working with all textures, colors
+                and styles. Starr is highly sought after for her damage correction
+                abilities as she is a master at being able to correct damage
+                from colors, relaxers or improper care of hair. Her approach
+                to each client is to bring out their individuality and what
+                compliments them the most.</div>
+<!--<img src="images/starr-text.png" mce_src="images/starr-text.png" width="418" height="377" />-->
+<div id="back"><a href="Home.html#stylists3"><img src="images/back.png" width="59" height="24" /></a></div>
+</div>
+<div id="right"><img src="images/starr-pic.png" width="316" height="375" /></div>
+</div>
+<!--End Stylists Pages--> <!--End sections--></div>
+</div>
+</div>
+<!--End Wrap--></div>
+<p><!--Footer--></p>
+<div id="footer-wrap">
+<div id="footer">
+<div id="left"><img name="brand" src="images/brand.png" width="156" height="95" border="0" id="brand" usemap="#m_brand" /> 
+<map name="m_brand" id="m_brand">
+<area shape="rect" coords="0,4,138,80" href="http://www.levannessence.com" target="_blank" style="border:none;"></area> 
+</map>
+</div>
+<div id="center"><img src="images/copyright.png" width="441" height="95" border="0" alt="Copyright Hair Design" /></div>
+<div id="right"><img name="websiteby" src="images/websiteby.png" width="167" height="95" border="0" id="websiteby" usemap="#m_websiteby" /> 
+<map name="m_websiteby" id="m_websiteby">
+<area shape="rect" coords="0,7,163,89" href="http://www.tiffaniink.com" style="border:none;"></area> 
+</map>
+</div>
+</div>
+</div>
+</body>
+</html>

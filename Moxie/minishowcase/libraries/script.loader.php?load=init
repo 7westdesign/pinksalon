@@ -1,0 +1,224 @@
+
+/**
+ * AJAX INIT VARIABLES
+ */
+	// error reporting (leave as ZERO or you might run into trouble)
+		
+	
+	/* JAVASCRIPT EXTRA SETTINGS */
+	
+	// jump from last block image to next block first image
+	var continuous_nav = true;
+	
+	// load thumbnails one by one
+	var use_load_interval = true;
+	
+	// show ajax loader
+	var show_loading_bar = true;
+	
+	// animate preview panle show/hide
+	var animate_preview = false;
+	
+	// clicking on permalink loads it directly
+	var active_permalink = false;
+	
+	// resize the thumbnail container
+	var set_thumbnail_container_height = false;
+	
+	// set visited galleries to 'visited' color
+	var show_visited_galleries = false;
+	
+	// show image description, if available [[DOES NOT WORK YET]]
+	var show_image_description = false;
+	
+	
+	/************************************************************
+	 * PRIVATE VARIABLES
+	 * DON'T CHANGE ANYTHING BELOW HERE
+	 * UNLESS YOU KNOW WHAT YOU'RE DOING, OF COURSE
+	 ************************************************************/
+	
+	/* DEBUG VARIABLES */
+	
+	var gallery_debug_flag = false;
+ 	var javascript_debug_flag = false;
+ 	var thumbnail_debug_flag = false;
+	//var cache_images = false;
+	var cache_image_size = 800;
+	var cache_thumb_size = 128;
+	var set_double_encoding = false;
+	var use_select_menu = false;
+	var use_double_nav_menu = false;
+	var gallery_width = 800;
+	var preview_mode = 0;
+	var slideshow_time = 10;
+	var scale_big_images = true;
+	var show_permalink = false;
+	var number_galleries = false;
+	var gallery_prefix = 'cache_';
+	var image_prefix = 'img_';
+	var thumbnail_prefix = 'th_';
+	var create_thumbnails = true;
+	var cache_thumbnails = true;
+	var square_thumbnails = true;
+	var large_image_quality = 80;
+	var max_thumbs = 6;
+	var show_gallery_number = false;
+	var show_thumb_name = true;
+	var show_thumb_number = false;
+	var max_thumbnail_rows = 2;
+	var numbered_blocks = true;
+	var info_file = '_info.txt';
+	var g_default = false;
+	var g_default_name = 'Featured Gallery';
+	
+	//// set location
+	var base_url = '';
+	var base_path = '';
+	
+	// check browser /////
+	agent = navigator.userAgent.toLowerCase();
+	mac = (agent.indexOf("mac")!=-1);
+	win = (!this.mac) ? true : false;
+	msie = (agent.indexOf("msie")!=-1);
+	w3c = (document.getElementById) ? true : false;
+	iex = (document.all) ? true : false;
+	ns4 = (document.layers) ? true : false;
+	
+	//// spinner image & preloader
+	var spinner = new Image();
+	var indicator_src = base_url+'images/spinner.gif';
+	spinner.src = indicator_src;
+	
+	//// global active items
+	var active_id = '';
+	var active_id_files = 0;
+	var active_img = '';
+	var active_num = 0;
+	
+	var reloading = false;
+	
+	var image_list = new Array();
+	var images_total = 0;
+	var inited = false;
+	var last_num = '';
+	var showLoader = false;
+	var slideshow_flag = false;
+	var timeout = undefined;
+	
+	var delay = undefined;
+	var thNum = 1;
+	var currentThumb = new Image();
+	var currentThumbData = new Object();
+	var checkThumb = undefined;
+	var loadThumbsInterval = undefined;
+	var open_image = false;
+	var th_array = new Array();
+	var gallery_title_cont = '';
+	
+	var descriptionOffset = 100;
+	
+	var elapsed = 0;
+	var timerID = undefined;
+	var tStart  = null;
+	
+	var trans = false;
+	var transDiv = false;
+	var transCallback = undefined;
+	
+	var currentImage = new Image();
+	var currentImageData = new Object();
+	
+	//// images array
+	var id_files = new Array();
+	
+	//// passwords array
+	var id_password = new Array();
+	
+	var open_first_image = false;
+	var query_init = true;
+	var preview_open = false;
+	var nav_direction_flag = 'next';
+	var first_image_in_slideshow_viewed = 0;
+	
+	//// key navigation ////
+	var key_navigation = true;
+	var go_to_prev = false;
+	var go_to_next = false;
+	var pos_orig = new Object();
+	pos_orig.l = 20;
+	pos_orig.t = 20;
+	pos_orig.w = 750;
+	pos_orig.h = 550;
+	var size_fullscreen = false;
+	
+	//// query parameters passed back (permalinks)
+	var query_parameters = new Array();
+	
+	var hash = (window.location.hash)
+		? window.location.hash.substring(1)
+		: false;
+	
+	if (hash) {
+		if (hash.indexOf(":")!=-1) {
+			hash_array = hash.split(":");
+			query_parameters['g'] = hash_array[0];
+			query_parameters['i'] = hash_array[1];
+		} else {
+			query_parameters['g'] = hash;
+		}
+	}
+	
+	// max size of thumbnail
+	var square_thumbnail_max_size = 30;
+	
+	//// pass existent alerts to javascript
+	var alert_message = new Array();
+		
+	//// private variables
+	var content_width = 590;
+	var thumbnail_max_size = 79;
+	var theme_menu_hover = '#999';
+	var max_image_width = 600;
+	var g_default_name_exists = false;
+	
+	//// calculated variables
+	var compact_navigation = (max_thumbnail_rows != 0) ? true : false;
+	var th_diff = (max_thumbs*max_thumbnail_rows)-1;
+	var th_min = 0;
+	var th_max = th_diff;
+	var max_image_height = max_image_width;
+	
+	
+	/**** language strings ****/
+	var lang = new Array();
+	
+	lang['gallery_name_prepend'] = unescape('');
+	lang['gallery_name_append'] = unescape('');
+
+	lang['menu_title'] = unescape('Galleries');
+	lang['menu_guide'] = unescape('Select%20a%20gallery%20from%20the%20galleries%20menu');
+	lang['lightbox_back'] = unescape('Back%20to%20thumbnails');
+	lang['alert_title'] = unescape('Alert');
+	lang['alert_dismiss'] = unescape('Click%20to%20dismiss');
+	lang['alert_no_images'] = unescape('There%20are%20no%20images%20in%20this%20gallery');
+	lang['alert_enlarge'] = unescape('Click%20on%20image%20to%20enlarge');
+	lang['alert_browser_error'] = unescape('Unfortunately%2C%20this%20gallery%20does%20not%20work%20in%20your%20browser');
+	lang['loading_menu'] = unescape('Finding%20galleries');
+	lang['loading_thumbs'] = unescape('Looking%20for%20images');
+	lang['loading_image'] = unescape('image');
+	lang['loading_of'] = unescape('of');
+	lang['loading_title'] = unescape('loading');
+	lang['gallery_reload'] = unescape('reload');
+	lang['slideshow_pause'] = unescape('pause');
+	lang['slideshow_resume'] = unescape('resume');
+	lang['slideshow_name'] = unescape('slideshow');
+	lang['tools_title'] = unescape('tools');
+	lang['tools_show'] = unescape('show');
+	lang['tools_hide'] = unescape('hide');
+	lang['slideshow_change_slide'] = unescape('change%20slide%20every');
+	lang['slideshow_seconds'] = unescape('seconds');
+	lang['slideshow_button'] = unescape('start%20slideshow');
+	lang['permalink'] = unescape('permalink');
+	
+	

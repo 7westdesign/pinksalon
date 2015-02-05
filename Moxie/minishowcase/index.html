@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!-- 
+	minishowcase v09b142
+	by victor zambrano
+	http://minishowcase.frwrd.net/
+ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<title>minishowcase | gallery</title>
+	
+	<!-- START CPAINT:JSRS ( http://cpaint.sourceforge.net/ ) -->
+	<script type="text/javascript" src="libraries/cpaint2.inc.compressed.js"></script>
+	<!-- END CPAINT:JSRS -->
+	
+	<!-- START AJAX SCRIPTS -->
+	<script src="libraries/script.loader.php%3Fload=init" type="text/javascript"></script>
+	<script src="libraries/ajax.functions.js" type="text/javascript"></script>
+	<!-- END AJAX SCRIPTS -->
+	
+		
+	<!-- START GALLERY CSS -->
+	<link rel="stylesheet" href="libraries/script.loader.php%3Fload=gallery.css" type="text/css" media="screen" />
+	<!-- END GALLERY CSS -->
+	
+		
+	<!-- START SCRIPTS/STYLESHEETS FOR IE PC -->
+	<!--[if IE]>
+		<link href="styles/gallery_ie.css" rel="stylesheet" type="text/css" media="screen" />
+		<!--[if gte IE 5.5]>
+			<style type="text/css">
+				div#msc_image {
+					/* IE5.5+/Win - this is more specific
+					than the IE 5.0 version */
+					left: expression( ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) + 'px' );
+					top: expression( ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) + 'px' );
+					right: auto;
+					bottom: auto;
+				}
+			</style>
+		<![endif]-->
+	<![endif]-->
+	<!-- END SCRIPTS/STYLESHEETS FOR IE PC -->
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    
+</head>
+
+<body>
+    <div id="servicesHeading">
+        Featured Gallery
+    </div>
+    <div id="center">
+
+
+	<a id="hash" name="null"></a>
+		
+	<div id="global_container">
+	
+	<div id="debug"><p>[DEBUG] <span id="debug_content">mozilla</span></p></div>
+	
+	<!-- tooltip -->
+	<div id="tooltip"></div>
+	
+	<!-- alert container -->
+	<div id="alert">
+		<span id="msg"><!-- Alert goes here --></span>
+		<p><a id="dismiss" href="javascript:;" onclick="hideDiv('alert');">Click to dismiss...</a></p>
+	</div>
+	<!-- alert container -->
+	
+	
+	<div id="msc_container">
+		
+		<!-- menu div -->
+		<div id="msc_menu">
+			<h1>Galleries</h1>
+		
+			<!-- menu items div -->
+			<div id="galleries_menu"></div>
+		</div>
+		<!-- menu div -->
+	
+		<!-- thumbs div -->
+		<div id="msc_thumbs">
+			
+			<!-- top menu -->
+			<div id="top_menu" class="">
+				<!-- galleries menu -->
+				<div id="galleries_select">&nbsp;</div>
+				<!-- tools menu -->
+				<div id="tools_menu">tools: 
+					<span id="tools_slideshow"></span>
+					<span id="tools_permalink"></span>
+				</div>
+			</div>
+			
+			<!-- gallery info div -->
+			<div id="gallery_data">
+				<div id="gallery_title"></div>
+			</div>
+			
+			<!-- gallery description div -->
+			<div id="gallery_description">
+			</div>
+			
+			<!-- thumbs wrapper -->
+			<div id ="thumbs_div">
+			
+				<!-- gallery block nav div -->
+				<div id="gallery_nav">
+					<div id="gallery_block"></div>
+				</div>
+				
+				<!-- thumbs loader data -->
+				<div id="thumbs_load"></div>
+				
+				<!-- thumbs container -->
+				<div id="thumbs_cont"></div>
+				
+				<div id="gallery_nav2">
+					<div id="gallery_block2"></div>
+				</div>
+				
+			</div>
+			
+			<!-- footer div -->
+			<div id="msc_foot">
+				<span id="footer_cont"><img src="../images/levanessencelogo2.png" border="0"></span>
+			</div>
+			
+		</div>
+		<!-- thumbs div -->
+	
+	</div>
+	<!-- msc_container div -->
+
+	<!-- image container -->
+	<div id="msc_image">
+		
+		<div id="image_url"></div>
+		
+		<!-- image div -->
+		<div id="image_div">
+			<div id="image_container">
+				<div id="image_menu">
+					<span id="close_win">
+						<a href="javascript:;" onclick="closeImageWin();">&#171; Back to thumbnails</a>
+					</span>
+					
+					<div id="nav_container">
+						<div id="prev">
+							<a id="a_prev" href="javascript:;" onclick="prevImage()"><img src="themes/default/prev.gif" alt="" /></a>
+						</div>
+						<div id="next">
+							<a id="a_next" href="javascript:;" onclick="nextImage()"><img src="themes/default/next.gif" alt="" /></a>
+						</div>
+						<div id="nav_thumbs"></div>
+					</div>
+					
+				</div>
+				
+				<div id="image_header">
+				
+					<div id="timer"><span id="time">[ 10]</span> | <span><a id="toggle_show" href="javascript:;" onclick="startSlideshow()">pause slideshow</a></span></div>
+					<div id="image_title"></div>
+					
+					<div id="mainimg_desc" class="imagen_desc"></div>
+					
+				</div>
+				
+				<div id="img">
+					<img id="mainimg" class="imagen" src="images/spacer.gif" alt="" />
+				</div>
+				
+			</div>
+			
+		</div>
+		<!-- image div -->
+		
+		<!-- image bg -->
+		<div id="image_bg"></div>
+		
+	</div>
+	<!-- image container -->
+	
+	</div>
+	
+		
+		
+    </div>
+
+</body>
+</html>
