@@ -144,8 +144,8 @@ margin-bottom:20px;
 
 #servicesPoints{
     padding: 0px 0px 0px 0px;
-	font-family: "GoudyBookletter1911";
-	font-size:18px;
+	font-family: 'Euphoria Script', cursive;
+	font-size:23px;
     text-shadow: 1px 1px 1px #005356;    
 }
 #servicesPoints li{
@@ -529,6 +529,13 @@ ul.menu li a:hover {background: none;}
 	background-color: rgba(57, 183, 205, 0.2);
 }
 
+#content_container_home {
+	width:960px;
+	height:1000px;
+	margin:0 auto;
+	background-color: rgba(57, 183, 205, 0.2);
+}
+
  
 #content-container-gallery {
 	width:960px;
@@ -539,25 +546,25 @@ ul.menu li a:hover {background: none;}
 }
 #content {
 	width:900px;
-	height:710px;
+	height:690px;
 	padding:0px 0px 0px;
 	margin:10px auto 10px;
 overflow:hidden;
 	
 }
 
-#content-container  #home{
-	width:960px;
-	height:1800px;
-	margin:0 auto;
-	background-color: none;
+#content_home {
+	width:900px;
+	height:900px;
+	padding:0px 0px 0px;
+	margin:10px auto 10px;
+overflow:hidden;
+	
 }
 
 
-
-
 #home {
-
+height:100000px;
 padding:40px;
 }
 
@@ -601,14 +608,14 @@ padding:40px;
 #home #text {
     position: relative;
     margin-top:75px;
-    line-height: 25px;
+    line-height: 30px;
     padding-left: 0px;
     padding-right: 0px;
     text-align: justify;
-	width:800px;
+	width:545px;
 	height:700px;
-	font-family: "GoudyBookletter1911", serif;
-	font-size:18px;
+	font-family: 'Euphoria Script', cursive;
+	font-size:23px;
     text-shadow: 1px 1px 1px #005356;
 	/*background-image:url(images/hometext.png);
 	background-repeat:no-repeat;*/
@@ -1213,3 +1220,6 @@ input.submit {
 	height:95px;
 	float:right;
 }
+
+
+
