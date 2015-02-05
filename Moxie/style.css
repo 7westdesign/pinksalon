@@ -138,7 +138,8 @@ body {
 #servicesHeading{
 	font-family: "SixCaps";
 	font-size:70px;
-    text-shadow: 1px 1px 1px #005356;    
+    text-shadow: 1px 1px 1px #005356; 
+margin-bottom:20px;   
 }
 
 #servicesPoints{
