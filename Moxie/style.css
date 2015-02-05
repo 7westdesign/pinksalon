@@ -269,13 +269,17 @@ img
 	padding-top:18px;
 }
 #logo {
-width: 590px;
-height: 350px;
+width: 570px;
+height: 330px;
 position: absolute;
-vertical-align: middle;
+
 z-index: 1;
-padding-left: 168px;
-top: 19px;
+margin-left:auto;
+margin-right:auto;
+left:0;
+background:none;
+right:0;
+top: 6px;
 }
 #header_line{
     background-image: url('images/pixelline.png');
@@ -309,13 +313,13 @@ top: 19px;
 #navcontainer {
 	position:relative;
 	width:960px;
-	height:50px;
+	height:60px;
 	background-image:url(images/navbar1.png);
     background-repeat: no-repeat;
     background-position: center;
 	margin: 0 auto;
 	clear:both;
-margin-top:-22px;
+margin-top:-75px;
 }
 .menu {
 	margin: 0;
@@ -329,12 +333,12 @@ margin-top:-22px;
     /*text-shadow: 1px 1px 1px #fff;*/   
 }
 .menu li {
-	padding-left: 20px;
-padding-right:16px;
+	padding-left: 18px;
+padding-right:18px;
 	margin: 0;
 	height: 44px;
 	margin-right: 1em;
-margin-top:-5px;
+margin-top:-1px;
 	display:inline;
 	list-style: none;
 }
@@ -556,7 +560,7 @@ overflow:hidden;
 #content_home {
 	width:900px;
 	height:900px;
-	padding:0px 0px 0px;
+	padding:0px;
 	margin:10px auto 10px;
 overflow:hidden;
 	
@@ -564,8 +568,8 @@ overflow:hidden;
 
 
 #home {
-height:100000px;
 padding:40px;
+
 }
 
 #contentScroller {
@@ -622,19 +626,13 @@ padding:40px;
 }
 
 
-
-
 #home #slider {
-width:810px;
-height:420px;
+width:840px;
+height:430px;
 margin:0 auto;
 float:left;
-}
-
-.slider_open {
-width:400px;
-height:300px;
-
+margin-top:5px;
+margin-left:-10px;
 }
 
 
