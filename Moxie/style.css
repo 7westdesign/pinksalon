@@ -135,12 +135,81 @@ body {
     top: -14px;
 }
 
+
 #servicesHeading{
 	font-family: "SixCaps";
 	font-size:70px;
     text-shadow: 1px 1px 1px #005356; 
 margin-bottom:20px;   
 }
+
+#content_container_home {
+	width:980px;
+	height:2000px;
+	margin:0 auto;
+	background-color: rgba(57, 183, 205, 0.2);
+
+}
+
+
+#content_home {
+	width:980px;
+	height:2000px;
+	padding:0px;
+	margin:10px auto 10px;
+overflow:hidden;
+	
+}
+
+
+#welcomeHeading {
+margin-top:34px;
+margin-left:12px;
+	font-family: "SixCaps";
+	font-size:70px;
+    text-shadow: 1px 1px 1px #005356;    
+
+}
+
+#home #text {
+    
+float:left;
+display:inline;
+    margin-top:33px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+	width:510px;
+	height:480px;
+	font-family: 'Euphoria Script', cursive;
+	font-size:23px;
+    text-shadow: 1px 1px 1px #005356;
+	/*background-image:url(images/hometext.png);
+	background-repeat:no-repeat;*/
+}
+
+#kar {
+float:left;
+position:relative;
+margin-top:0px;
+margin-left:130px;
+padding:0;
+}
+
+#karwords {
+float:left;
+position:relative;
+margin-top:30px;
+text-align:center;
+padding:0;
+font-size:25px;
+font-weight:700;
+width:500px;
+font-family: 'Euphoria Script', cursive;
+color:#000;
+}
+
 
 #servicesPoints{
     padding: 0px 0px 0px 0px;
@@ -296,8 +365,17 @@ top: 6px;
 	height:35px;
 	float:right;
 	margin-left:10px;
+	margin-top:204px;
+}
+
+#insta_social {
+	width:150px;
+	height:35px;
+	float:left;
+	margin-left:10px;
 	margin-top:197px;
 }
+
 
 #socialNetworks a {
 	margin:0px 10px 0px 0px;
@@ -533,12 +611,6 @@ ul.menu li a:hover {background: none;}
 	background-color: rgba(57, 183, 205, 0.2);
 }
 
-#content_container_home {
-	width:960px;
-	height:1000px;
-	margin:0 auto;
-	background-color: rgba(57, 183, 205, 0.2);
-}
 
  
 #content-container-gallery {
@@ -556,16 +628,6 @@ ul.menu li a:hover {background: none;}
 overflow:hidden;
 	
 }
-
-#content_home {
-	width:900px;
-	height:900px;
-	padding:0px;
-	margin:10px auto 10px;
-overflow:hidden;
-	
-}
-
 
 #home {
 padding:40px;
@@ -609,30 +671,11 @@ padding:40px;
 }
 
 
-#home #text {
-    position: relative;
-    margin-top:75px;
-    line-height: 30px;
-    padding-left: 0px;
-    padding-right: 0px;
-    text-align: justify;
-	width:545px;
-	height:700px;
-	font-family: 'Euphoria Script', cursive;
-	font-size:23px;
-    text-shadow: 1px 1px 1px #005356;
-	/*background-image:url(images/hometext.png);
-	background-repeat:no-repeat;*/
-}
-
-
 #home #slider {
 width:840px;
 height:430px;
-margin:0 auto;
-float:left;
-margin-top:5px;
-margin-left:-10px;
+margin-left:auto;
+margin-right:auto;
 }
 
 
@@ -713,6 +756,46 @@ margin-left:10px;
 	width:800px;
 	height:355px;
 	float:left;
+}
+
+
+#right_insta {
+position:relative;
+float:right;
+
+width:300px;
+height:700px;
+margin:0;
+margin-top:-100px;
+padding:0;
+background:none;margin-right:35px;
+}
+
+#instaHeading {
+margin-top:18px;
+margin-bottom:15px;
+text-align:center;
+
+	font-family: "SixCaps";
+	font-size:64px;
+    text-shadow: 1px 1px 1px #005356;    
+
+}
+
+#left_moxie {
+float:left;
+position:relative;
+
+padding-left:10px;
+width:500px;
+}
+
+.fb-like {
+float:left;
+margin-left:20px;
+position:relative;
+
+
 }
 
 /*Begin Stylists*/
