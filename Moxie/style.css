@@ -519,7 +519,7 @@ ul.menu li a:hover {background: none;}
 	width:960px;
 	height:570px;
 	margin:0 auto;
-	background-image:url(images/page-bg.jpg);
+	background-color: rgba(175,238,238, 0.4);
 }
 #content-container-gallery {
 	width:960px;
