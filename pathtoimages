@@ -1,0 +1,20 @@
+<div class="jCarouselLite">
+<ul>
+<li><a href="Moxie/images/salonpic2.jpg" rel="lightbox"><img src="Moxie/images/thumb_salonpic2.jpg" width="250" height="170" /></a></li>
+
+<li><a href="Moxie/images/salonpic3.jpg" rel="lightbox"><img src="Moxie/images/thumb_salonpic3.jpg" width="250" height="170" /></a></li>
+
+
+<li><a href="Moxie/images/salonpic4.jpg" rel="lightbox"><img src="Moxie/images/thumb_salonpic4.jpg" width="250" height="170" /></a></li>
+
+
+<li><a href="Moxie/images/salonpic6.jpg" rel="lightbox"><img src="Moxie/images/thumb_salonpic6.jpg" width="250" height="170" /></a></li>
+<li><a href="Moxie/images/salonpic7.jpg" rel="lightbox"><img src="Moxie/images/thumb_salonpic7.jpg" width="250" height="170" /></a></li>
+<li><a href="Moxie/images/salonpic8.jpg" rel="lightbox"><img src="Moxie/images/thumb_salonpic8.jpg" width="250" height="170" /></a></li>
+<li><a href="Moxie/images/salonpic9.jpg" rel="lightbox"><img src="Moxie/images/thumb_salonpic9.jpg" width="250" height="170" /></a></li>
+<li><a href="Moxie/images/salonpic10.jpg" rel="lightbox"><img src="Moxie/images/thumb_salonpic10.jpg" width="250" height="170" /></a></li>
+</ul>
+<div id="buttons">
+<div id="right"><a href="index.html#" class="prev"><img src="Moxie/images/next-but.png" /></a></div>
+</div>
+</div>
