@@ -170,10 +170,6 @@ text-shadow: 1px 1px 1px #005356;
 line-height: 24px;
 }
 
-#ahome {
-
-color:#FF69B4;
-}
 
 #notice_top{
     }
@@ -367,6 +363,12 @@ margin-top:-5px;
 	height: 20px;
 	background-repeat: no-repeat;
 }
+
+.menu li a.current{
+    color: #FF69B4;
+}
+
+
 /*.homebut {background-image: url(images/homebut-rollover.png); width: 85px;}
 .homebut a {background-image: url(images/homebut.png);}
 .servicesbut {background-image: url(images/servicesbut-rollover.png); width: 115px;}
