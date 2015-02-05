@@ -170,6 +170,11 @@ text-shadow: 1px 1px 1px #005356;
 line-height: 24px;
 }
 
+#ahome {
+
+color:#FF69B4;
+}
+
 #notice_top{
     }
 
@@ -519,7 +524,7 @@ ul.menu li a:hover {background: none;}
 	width:960px;
 	height:570px;
 	margin:0 auto;
-	background-color: rgba(175,238,238, 0.4);
+	background-color: rgba(0,197,205, 0.4);
 }
 #content-container-gallery {
 	width:960px;
@@ -538,6 +543,7 @@ ul.menu li a:hover {background: none;}
 #contentScroller {
 	width:20000px;
 }
+
 
 .page {
 	float:left;
@@ -1060,6 +1066,7 @@ label {
 	padding:5px;
     
 }
+
 
 textarea {
 	position:absolute;
