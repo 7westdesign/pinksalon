@@ -87,6 +87,14 @@ setTimeout(function() {
 
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div id="wrapper">
 <div id="header-container">
 
@@ -139,10 +147,12 @@ setTimeout(function() {
 <!--Start Stylists1 Page--> <!--Start Stylists1 Page-->
 <div class="page" id="stylists">
 <div id="stylistsHeading">Stylists</div>
-<div id="left"><a href="stylists.html#kari"><img width="250" height="350" src="Moxie/images/kari.png" /></a></div>
+<div id="left"><a href="stylists.html#kari"><img width="250" height="350" src="Moxie/images/kari.png" /></a> </div>
 <div id="center"><a href="stylists.html#julz"><img width="250" height="350" src="Moxie/images/julz.png" /></a></div>
 <div id="right"><a href="stylists.html#jenifer"><img src="Moxie/images/jenifer.png" width="250" height="350" /></a>
 <div class="more"><a href="stylists.html#stylists2"><img width="60" height="24" src="Moxie/images/more.png" /></a></div>
+
+
 </div>
 </div>
 <!--Start Stylists2 Page
@@ -339,6 +349,8 @@ setTimeout(function() {
 </div>
 <div id="right"><img src="Moxie/images/starr-pic.png" width="316" height="375" /></div>
 </div>
+
+
 <!--End Stylists Pages--> <!--End sections--></div>
 
 

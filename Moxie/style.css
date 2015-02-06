@@ -161,6 +161,42 @@ overflow:hidden;
 	
 }
 
+#content-container-services {
+	width:980px;
+	height:1200px;
+	margin:0 auto;
+	background-color: rgba(57, 183, 205, 0.2);
+
+}
+
+#yelpwidget {
+margin-left:44px;
+margin-top:100px;
+line-height:20px;
+
+}
+
+#yelpwidget a {
+color:#000;
+
+}
+
+#content-services {
+	width:980px;
+	height:1200px;
+	padding:0px;
+	margin:10px auto 10px;
+overflow:hidden;
+	
+}
+
+
+
+
+
+
+
+
 
 #welcomeHeading {
 margin-top:34px;
@@ -192,7 +228,7 @@ display:inline;
 #kar {
 float:left;
 position:relative;
-margin-top:0px;
+margin-top:11px;
 margin-left:130px;
 padding:0;
 }
@@ -200,7 +236,7 @@ padding:0;
 #karwords {
 float:left;
 position:relative;
-margin-top:30px;
+margin-top:44px;
 text-align:center;
 padding:0;
 font-size:25px;
@@ -361,11 +397,17 @@ top: 6px;
 }
 
 #social {
-	width:85px;
+	width:180px;
 	height:35px;
 	float:right;
-	margin-left:10px;
+	margin-right:10px;
 	margin-top:204px;
+}
+
+#social a {
+	
+	margin-left:10px;
+	
 }
 
 #insta_social {
@@ -374,6 +416,10 @@ top: 6px;
 	float:left;
 	margin-left:10px;
 	margin-top:197px;
+}
+
+#instaa {
+margin-left:2px;
 }
 
 
@@ -620,6 +666,10 @@ ul.menu li a:hover {background: none;}
 	background-image:url(images/page-bg.jpg);
 	background-repeat:no-repeat;
 }
+
+
+
+
 #content {
 	width:900px;
 	height:690px;
@@ -701,14 +751,17 @@ height:100%;
 #laptop img, #contact img {
 	border:none;
 }
-#services {
+
+ #services {
 	position:relative;
 	float:left;
+
 }
 #services #left {
 	width:310px;
 	height:387px;
 	float:left;
+padding:40px;
 }
 #services #right {
 	width:445px;
@@ -749,6 +802,7 @@ height:100%;
 	background-repeat: no-repeat;*/
 	position:relative;
 	float:left;
+height:1000px;
 }
 #gallery #center{
 margin-top:25px;
@@ -758,6 +812,13 @@ margin-left:10px;
 	float:left;
 }
 
+.ultra {
+margin-left:30px;
+}
+.gal {
+float:left;
+padding:2px;
+}
 
 #right_insta {
 position:relative;
@@ -794,9 +855,9 @@ width:500px;
 float:left;
 margin-left:20px;
 position:relative;
-
-
 }
+
+
 
 /*Begin Stylists*/
 #stylists {
