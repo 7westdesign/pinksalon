@@ -393,7 +393,7 @@ function initLightbox()
 	// create keyboard message
 	var objKeyboardMsg = document.createElement("div");
 	objKeyboardMsg.setAttribute('id','keyboardMsg');
-	objKeyboardMsg.innerHTML = 'press <kbd>x</kbd> to close';
+	objKeyboardMsg.innerHTML = '';
 	objLightboxDetails.appendChild(objKeyboardMsg);
 
 

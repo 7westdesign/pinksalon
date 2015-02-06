@@ -257,6 +257,7 @@
 	font-family: Helvetica;
 	font-size: 12px;
 	z-index: 1102;
+color: #000;
 }
 
 .fancybox-title-inside {
@@ -269,14 +270,14 @@
 
 .fancybox-title-outside {
 	padding-top: 10px;
-	color: #fff;
+	color: #000;
 }
 
 .fancybox-title-over {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	color: #FFF;
+	color: #000;
 	text-align: left;
 }
 

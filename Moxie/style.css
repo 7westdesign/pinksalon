@@ -187,12 +187,12 @@ overflow:hidden;
 margin-left:44px;
 margin-top:55px;
 line-height:20px;
-font-family: 'Dancing Script', cursive;
-font-size:22px;
+font-family: 'Open Sans', sans-serif;
+font-size:16px;
 }
 
 #yelpwidget a {
-color:#CD0000;
+color:#69b4ff;
 
 }
 
@@ -217,7 +217,7 @@ letter-spacing:1px;
 
 }
 .standout {
-color:#000;
+color:#fff;
 
 }
 
@@ -234,9 +234,10 @@ display:inline;
 	height:480px;
 	font-family: 'Dancing Script', cursive;
 	font-size:23px;
-    text-shadow: 1px 1px 1px #005356;
+    /*text-shadow: 1px 1px 1px #111;*/
 	/*background-image:url(images/hometext.png);
 	background-repeat:no-repeat;*/
+color:#ff9cce;
 }
 
 #kar {
@@ -245,6 +246,9 @@ position:relative;
 margin-top:44px;
 margin-left:130px;
 padding:0;
+}
+#sendmail {
+background-image:url(Moxie/images/button.png);
 }
 
 #karwords {
@@ -257,7 +261,7 @@ font-size:25px;
 font-weight:700;
 width:500px;
 font-family: 'Euphoria Script', cursive;
-color:#999;
+color:#ff9cce;
 }
 
 
@@ -504,7 +508,7 @@ margin-top:-1px;
 	background-repeat: no-repeat;
 }
 .menu li a:hover {
-    color: #6996AD;
+    color: #b19cd9;
 	display: block;
 	text-decoration: none;
 	/*text-indent: -9999px;*/
@@ -513,8 +517,8 @@ margin-top:-1px;
 }
 
 .menu li a.current{
-    color:#b19cd9;
-}
+    color:#ff83c1;
+} 
 
 #ins {
 padding-top:100px;
@@ -1384,12 +1388,14 @@ input.submit {
 	height:112px;
 	background-image:url(images/footer-bg.png);
 	background-repeat:repeat;
+
 }
 #footer{
 	width:960px;
 	height:95px;
 	margin:0 auto;
 	padding-top:15px;
+
 }
 #footer #left{
 	width:200px;
