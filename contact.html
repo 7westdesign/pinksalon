@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
@@ -8,7 +9,6 @@
 <meta name="keywords" content="Contact Moxie Hair & Design Studio, book an appointment" />
 <meta name="description" content="Want to book an appointment at Moxie? Have a question or comment?
 We'd love to hear from you!" />
-	
 <link rel="stylesheet" type="text/css" href="Moxie/style.css" media="screen" />
 <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
 <script type="text/javascript" src="Moxie/js/jquery-1.js"></script>
@@ -16,7 +16,7 @@ We'd love to hear from you!" />
 <script type="text/javascript" src="Moxie/js/jquery.js"></script>
 <!--<script type="text/javascript" src="js/functions.js"></script>-->
 <!--<script type="text/javascript" src="js/validation.js"></script>-->
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 <div id="wrapper">
@@ -88,9 +88,13 @@ We'd love to hear from you!" />
 <li> <label for="email" class="label2">*Email</label> <input class="input2" type="text" name="email" id="email" /> <br /> </li>
 <li> <label  for="subject"class="label3">*Subject</label> <input class="input3" type="text" name="subject" id="subject" /> </li>
 <li> <label for="message" class="label4">Message</label> <textarea class="itextarea" name="message" id="message"></textarea> </li>
+
+<li>
+
+      
 <li id="button"> <!--<input type="image" name="send" src="images/button.png" mce_src="images/button.png" width="60" height="35" />-->
-                     
- 
+            
+ <div id="capt" class="g-recaptcha" data-sitekey="6LffpAETAAAAAEWKV8RmANPphT3j16jApC-u6Xj1"></div>
  <input type="image" name="submit" id="sendmail" value="Send" src="Moxie/images/button.png" /> </li>
 <!--
 <li id="thankyou"><img src="images/thankyou.png" mce_src="images/thankyou.png" /></li>
@@ -99,6 +103,7 @@ We'd love to hear from you!" />
 </ul>
 <div id="response"></div>
 </form>
+<br />
 <div id="notice">*Required information.</div>
 <div id="aptbookingnotice">If booking an appointment, please list "appointment" in the subject line.</div>
 

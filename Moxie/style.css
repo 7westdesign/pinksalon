@@ -94,7 +94,7 @@ body {
 	background: #f8f8f8;
 }
 #sendmail{
-	margin-top: 5px;
+	margin-top: 2px;
 	display: block;
 }
 #response{
@@ -307,6 +307,7 @@ line-height: 24px;
     top:450px;
     width:500px;
 	display: block;
+
 	margin: 1px 0;
     font-family: "GoudyBookletter1911",serif;
     font-size: 14px;
@@ -763,8 +764,15 @@ width:840px;
 height:430px;
 margin-left:auto;
 margin-right:auto;
+
 }
 
+.g-recaptcha {
+float:left;
+margin-left:-250px;
+padding-top:2px;
+padding-bottom:8px;
+}
 
 .openimg {
 width:100%;
@@ -1333,6 +1341,7 @@ textarea {
 	height:35px;
 	text-align:center;
 }
+
 #myform #thankyou{
 	position:absolute;
 	left:50px;
