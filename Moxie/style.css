@@ -117,6 +117,11 @@ body {
     
 }
 
+#moxie_title {
+font-family: 'Dancing Script', cursive;
+
+}
+
 .anfang1 {
     border: medium none;
     color: #F8F2F2;
@@ -157,16 +162,22 @@ margin-left:100px;
 
 #content_container_home {
 	width:980px;
-	height:2000px;
+	height:2100px;
 	margin:0 auto;
 	background-color: rgba(57, 183, 205, 0.2);
 
 }
 
+#greyshow {
+position:relative;
+float:left;
+clear:both;
+margin-top:30px;
+}
 
 #content_home {
 	width:980px;
-	height:2000px;
+	height:2100px;
 	padding:0px;
 	margin:10px auto 10px;
 overflow:hidden;
@@ -184,15 +195,23 @@ overflow:hidden;
 }
 
 #yelpwidget {
-margin-left:44px;
+margin-left:7px;
 margin-top:55px;
+padding-top:30px;
+padding-left:30px;
 line-height:20px;
 font-family: 'Open Sans', sans-serif;
 font-size:15px;
+background-color:rgba(255, 255, 255, 0.2);
 }
 
 #yelpwidget a {
-color:#69b4ff;
+color:#000;
+font-weight:bold;
+}
+#yelpwidget a:hover {
+color:#fff;
+font-weight:bold;
 
 }
 
@@ -232,8 +251,9 @@ display:inline;
     text-align: justify;
 	width:500px;
 	height:480px;
+font-weight:lighter;
 	font-family: 'Dancing Script', cursive;
-	font-size:23px;
+	font-size:22px;
     /*text-shadow: 1px 1px 1px #111;*/
 	/*background-image:url(images/hometext.png);
 	background-repeat:no-repeat;*/
@@ -243,25 +263,32 @@ color:#ff9cce;
 #kar {
 float:left;
 position:relative;
-margin-top:44px;
-margin-left:130px;
+margin-top:68px;
+width:400px;
+margin-left:70px;
 padding:0;
 }
 #sendmail {
 background-image:url(Moxie/images/button.png);
 }
 
+.open {
+margin-top:17px;
+
+}
+
 #karwords {
 float:left;
 position:relative;
-margin-top:108px;
+margin-top:77px;
+margin-left:33px;
 text-align:center;
 padding:0;
 font-size:25px;
-font-weight:700;
-width:500px;
+font-weight:500;
+width:450px;
 font-family: 'Euphoria Script', cursive;
-color:#ff9cce;
+color:#220a37;
 }
 
 
@@ -304,7 +331,7 @@ line-height: 24px;
 
 #notice{
     position:absolute;
-    top:450px;
+    top:500px;
     width:500px;
 	display: block;
 
@@ -317,7 +344,7 @@ line-height: 24px;
 #aptbookingnotice
 {
     position:absolute;
-	top: 468px;
+	top: 518px;
     width:500px;
 	display: block;
 	margin: 1px 0;
@@ -1157,10 +1184,10 @@ margin-top:25px;
 	/*background-image:url(images/contactleft.png);*/
 }
 #contact #right {
-	width:214px;
+	width:300px;
 	height:204px;
 	float:left;
-	margin-left:150px;
+	margin-left:15px;
 	padding-top:75px;
 }
 #contact2 {
