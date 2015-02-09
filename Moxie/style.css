@@ -236,8 +236,7 @@ letter-spacing:1px;
 
 }
 .standout {
-color:#fff;
-
+color:#2e0e4b;
 }
 
 #home #text {
@@ -273,10 +272,20 @@ background-image:url(Moxie/images/button.png);
 }
 
 .open {
-margin-top:17px;
-
+margin-top:24px;
 }
 
+#swimshape {
+color:#ff9cce;
+font-size:37px;
+float:left;
+position:relative;
+text-align:center;
+font-family: 'Euphoria Script', cursive;
+width:450px;
+margin-top:12px;
+margin-left:33px;
+}
 #karwords {
 float:left;
 position:relative;
@@ -288,7 +297,7 @@ font-size:25px;
 font-weight:500;
 width:450px;
 font-family: 'Euphoria Script', cursive;
-color:#220a37;
+color:#fff;
 }
 
 
