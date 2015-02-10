@@ -256,7 +256,8 @@ font-weight:lighter;
     /*text-shadow: 1px 1px 1px #111;*/
 	/*background-image:url(images/hometext.png);
 	background-repeat:no-repeat;*/
-color:#ff9cce;
+color:#ffcfe7;
+text-shadow: 1px 1px 1px #005356;  
 }
 
 #kar {
@@ -285,6 +286,7 @@ font-family: 'Euphoria Script', cursive;
 width:450px;
 margin-top:12px;
 margin-left:33px;
+
 }
 #karwords {
 float:left;
@@ -296,6 +298,7 @@ padding:0;
 font-size:25px;
 font-weight:500;
 width:450px;
+text-shadow: 1px 1px 1px #005356;
 font-family: 'Euphoria Script', cursive;
 color:#fff;
 }
