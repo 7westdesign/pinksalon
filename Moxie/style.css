@@ -33,10 +33,11 @@ table {
 }
 /*Begin Page*/
 html{
-	height:auto;
+	height:100%;
 	margin:0 auto;
 	
 }
+
 body {
 	width:100%;
 	margin: 0 auto;
@@ -162,8 +163,19 @@ margin-left:100px;
 
 #content_container_home {
 	width:980px;
-	height:2100px;
+height:2100px;
 	margin:0 auto;
+background-image:url();
+ background-size: 980px 2100px auto;
+  background-position:0% 0%;
+/*border-style: solid transparent;
+border-width: 33px 33px 33px 33px;
+-moz-border-image: url(images/ornaments5poprRF.jpg) 134 134 repeat;
+-webkit-border-image: url(images/ornaments5poprRF.jpg) 134 134 repeat;
+-o-border-image: url(images/ornaments5poprRF.jpg) 134 134 repeat;
+border-image: url(images/ornaments5poprRF.jpg) 134 134 repeat;
+        
+*/
 	background-color: rgba(57, 183, 205, 0.2);
 
 }
@@ -430,6 +442,14 @@ img
 	height:394px;
 	margin:0 auto;
 }
+
+#mox_sign {
+float:left;
+position:absolute;
+margin-left:-160px;
+margin-top:-35px;
+}
+
 #book {
 	width:168px;
 	height:42px;
