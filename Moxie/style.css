@@ -342,10 +342,12 @@ letter-spacing:2px;
     text-align: center;
 margin-top:21px;
 }
+
+
 #notice_top{
-  position: absolute;
+  position: relative;
 top: 90px;
-display: block;
+float:left;
 margin: 1px 0;
 font-family: 'Dancing Script', cursive;
 font-size: 20px;
