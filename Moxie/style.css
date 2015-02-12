@@ -332,6 +332,7 @@ color:#fff;
 letter-spacing:1px;
     text-shadow: 1px 1px 1px #005356;
     text-align: center;
+margin-bottom:44px;
 }
 #galleryHeading{
 	font-family: "SixCaps";
@@ -445,8 +446,8 @@ img
 #mox_sign {
 float:left;
 position:absolute;
-margin-top:-47px;
-margin-left:60px;
+margin-top:-43px;
+margin-left:80px;
 }
 
 #vintage_moxie {  width:238px; height:181px; }
@@ -465,7 +466,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 
 #vintage_moxie { width:150px; height:75px;  }
-#mox_sign {float:left; position:absolute; margin-top:-35px;margin-left:10px;}
+#mox_sign {float:left; position:absolute; margin-top:-35px;padding-right:100px;}
 #social {padding-left:20px;width:180px;height:35px;float:right;margin-top:-97px;margin-right:0px;}
 
 }
