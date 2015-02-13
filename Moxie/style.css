@@ -1,6 +1,8 @@
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/css?family=Euphoria+Script);
 @import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
 /* CSS Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -81,8 +83,13 @@ body {
 	margin:auto;
 }
 #formail{
-	width: 500px;
-	margin: auto;
+position:relative;
+float:left;
+background:#000;
+width: 500px;
+height:500px;
+background-color: rgba(57, 183, 205, 0.2);
+margin-top:30px;
 }
 #formail label{
 	display: block;
@@ -95,7 +102,7 @@ body {
 	background: #f8f8f8;
 }
 #sendmail{
-	margin-top: 2px;
+	margin-top: 12px;
 	display: block;
 }
 #response{
@@ -148,7 +155,7 @@ font-family: 'Dancing Script', cursive;
 	font-size:70px;
 letter-spacing:1px;
     text-shadow: 1px 1px 1px #005356; 
-margin-bottom:20px;   
+margin-bottom:55px;   
 }
 
 #reviewsHeading{
@@ -197,7 +204,6 @@ overflow:hidden;
 }
 
 
-
 #content-container-services {
 	width:980px;
 	height:1300px;
@@ -213,6 +219,20 @@ overflow:hidden;
 	
 }
 
+#content-container-contact {
+	width:980px;
+	height:900px;
+	margin:0 auto;
+	background-color: rgba(57, 183, 205, 0.2);
+}
+#content-contact {
+	width:980px;
+	height:1000px;
+	padding:0px;
+	margin:10px auto 10px;
+overflow:hidden;	
+}
+
 #yelpwidget {
 margin-left:auto;
 margin-right:auto;
@@ -221,22 +241,27 @@ margin-top:33px;
 width:400px;
 padding-top:30px;
 padding-left:30px;
-line-height:20px;
-font-family: 'Open Sans', sans-serif;
+line-height:22px;
+font-weight:200;
+font-family: 'Lobster Two', cursive;
+letter-spacing:1px;
 font-size:15px;
 background-color:rgba(255, 255, 255, 0.2);
 }
 
+.serviceslist {
+margin-bottom:8px;
+
+}
+
 #yelpwidget a {
-color:#000;
+color:#E32636;
 font-weight:bold;
 }
 #yelpwidget a:hover {
 color:#fff;
 font-weight:bold;
-
 }
-
 #welcomeHeading {
 margin-top:44px;
 margin-left:12px;
@@ -261,9 +286,10 @@ display:inline;
     text-align: justify;
 	width:500px;
 	height:480px;
-font-weight:lighter;
-	font-family: 'Dancing Script', cursive;
-	font-size:22px;
+font-weight:200;
+letter-spacing:1px;
+	font-family: 'Lobster Two', cursive;
+	font-size:19px;
     /*text-shadow: 1px 1px 1px #111;*/
 	/*background-image:url(images/hometext.png);
 	background-repeat:no-repeat;*/
@@ -317,9 +343,25 @@ color:#fff;
 
 #servicesPoints{
     padding: 0px 0px 0px 0px;
-	font-family: 'Dancing Script', cursive;
-	font-size:23px;
+	font-family: 'Lobster Two', cursive;
+letter-spacing:1px;
+	font-size:20px;
     text-shadow: 1px 1px 1px #005356;    
+}
+
+.quoteimg {
+margin-bottom:215px;
+
+}
+
+.stylePoints{
+    padding: 0px 0px 0px 0px;
+text-indent:14px;
+	font-family: 'Lobster Two', cursive;
+	font-size:19px;
+letter-spacing:1px;
+    text-shadow: 1px 1px 1px #005356;
+padding-top:11px;    
 }
 #servicesPoints li{
     list-style: disc;
@@ -343,12 +385,18 @@ letter-spacing:2px;
 margin-top:21px;
 }
 
+#phoneimg {
+margin-left:100px;
+
+}
+
 
 #notice_top{
-  position: relative;
-top: 90px;
+position: relative;
+padding-top: 10px;
 float:left;
-margin: 1px 0;
+margin-top:5px;
+margin-bottom:14px;
 font-family: 'Dancing Script', cursive;
 font-size: 20px;
 text-shadow: 1px 1px 1px #005356;
@@ -356,21 +404,20 @@ line-height: 24px;
 }
 
 #notice{
-    position:absolute;
-    top:500px;
-    width:500px;
-	display: block;
-
+    position:relative;
+    
+float:left;
 	margin: 1px 0;
     font-family: "GoudyBookletter1911",serif;
-    font-size: 14px;
+    font-size: 14px;margin-top:5px;
     text-shadow: 1px 1px 1px #005356;
 
 }
 #aptbookingnotice
 {
-    position:absolute;
-	top: 518px;
+    position:relative;
+	top: 5px;
+float:left;
     width:500px;
 	display: block;
 	margin: 1px 0;
@@ -863,13 +910,12 @@ margin-top:60px;
 .services_slider {
 width:100%;
 height:100%;
-
 }
-
 
 .g-recaptcha {
 float:left;
-margin-left:-250px;
+margin-top:-10px;
+margin-left:-4px;
 padding-top:2px;
 padding-bottom:8px;
 }
@@ -1252,7 +1298,7 @@ margin-top:25px;
 }
 #contact #left {
 	width:448px;
-	height:474px;
+	height:800px;
 	float:left;
 	/*background-image:url(images/contactleft.png);*/
 }
@@ -1260,7 +1306,7 @@ margin-top:25px;
 	width:300px;
 	height:204px;
 	float:left;
-	margin-left:15px;
+	margin-left:55px;
 	padding-top:75px;
 }
 #contact2 {
@@ -1335,108 +1381,60 @@ label {
 #myform {
 	position:relative;
 	margin-left:10px;
+height:600px;
 }
-.label1{
-	position:absolute;
+.label{
+	position:relative;
 	left:-10px;
-	top:150px;
-	display:block;
+	top:10px;
+	display:inline-block;
 	/*	font-size:1.4em;*/
-	padding:5px;
+	padding:5px;clear:none;padding-left:15px;
     
 }
-.input1 {
-	position:absolute;
-	left:50px;
-	top:150px;
-	display:block;
-	/*	font-size:1.4em;*/
-	padding:5px;
-	background:#ffffff;
-	color:#222222;
-	width:360px;
-	height:10px;
-	margin:2px 0 20px 10px;
-	display:block;
-}
-.label2{
-	position:absolute;
+
+.labelm{
+	position:relative;
 	left:-10px;
-	top:180px;
-	display:block;
+	top:30px;
+	display:inline-block;
 	/*	font-size:1.4em;*/
 	padding:5px;
     
 }
-.input2 {
-	position:absolute;
-	left:50px;
-	top:180px;
-	display:block;
+.input {
+	position:relative;clear:none;
+	float:left;
+display:inline-block;
 	/*	font-size:1.4em;*/
 	padding:5px;
+margin-left:5px;
 	background:#ffffff;
 	color:#222222;
 	width:360px;
 	height:10px;
-	margin:2px 0 20px 10px;
-	display:block;
-}
-.label3{
-	position:absolute;
-	left:-20px;
-	top:215px;
-	display:block;
-	/*	font-size:1.4em;*/
-	padding:5px;
-    
+	
 }
 
-.input3 {
-	position:absolute;
-	left:50px;
-	top:215px;
-	display:block;
+
+.textarea {
+	position:relative;clear:none;
+	float:left;
+display:inline-block;
 	/*	font-size:1.4em;*/
 	padding:5px;
 	background:#ffffff;
 	color:#222222;
-	width:360px;
-	height:10px;
-	margin:2px 0 20px 10px;
-	display:block;
-}
-.label4{
-	position:absolute;
-	left:-20px;
-	top:252px;
-	display:block;
-	/*	font-size:1.4em;*/
-	padding:5px;
-    
-}
-
-
-textarea {
-	position:absolute;
-	left:50px;
-	top:252px;
-	display:block;
-	font-size:12px;
-	padding:5px;
-	margin-left:25px;
-	background:#ffffff;
-	color:#222222;
+margin-left:5px;
 	width:360px;
 	height:80px;
-	margin:2px 0 20px 10px;
 }
 #myform #button {
-	position:absolute;
-	left:225px;
-	top:350px;
+	position:relative;
+
+	top:30px;
 	clear:both;
-	margin-left:150px;
+	margin-left:15px;
 	width:60px;
 	height:35px;
 	text-align:center;

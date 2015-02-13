@@ -55,96 +55,48 @@ We'd love to hear from you!" />
 });
 </script>
 
-<div id="content-container">
-<div id="content">
+<div id="content-container-contact">
+<div id="content-contact">
 
 <!--Start Contact Page-->
 <div id="contact" class="page">
 <div id="left">
 <div id="myform">
 <div id="servicesHeading">Contact</div>
-<div id="notice_top">Want to book an appointment? We'd love to hear from you!<br />For general questions & pricing inquiries, please call: </div>
-<div style="padding-top: 12px;"></div>
+<div id="notice_top">To book an appointment, or for general questions about pricing, and all other inquiries: Please give us a call: </div>
+
+<div id="phoneimg"><img src="Moxie/images/moxphonew.png" width="190" height="64"  border="0" alt="Copyright Hair Design" />    </div>
+
 
 <form method="post" name="contactform" id="formail" action="email_us/mailer.php"  role="form" >
 <div id="messageOK">Thank you! Message Sent!</div>
 <div id="messageERROR">ERROR: Message Not Sent!</div>
 <ul>
-
-<li> <label for="name" class="label1">*Name</label> <input class="input1" type="text" name="name" id="name" /> <br /> </li>
-<li> <label for="email" class="label2">*Email</label> <input class="input2" type="text" name="email" id="email" /> <br /> </li>
-<li> <label  for="subject"class="label3">*Subject</label> <input class="input3" type="text" name="subject" id="subject" /> </li>
-<li> <label for="message" class="label4">Message</label> <textarea class="itextarea" name="message" id="message"></textarea> </li>
-
-<li>
-
-      
-<li id="button"> <!--<input type="image" name="send" src="images/button.png" mce_src="images/button.png" width="60" height="35" />-->
-            
+<li> <label for="name" class="label">*Name</label> <input class="input" type="text" name="name" id="name" /> <br /> </li>
+<li> <label for="email" class="label">*Email</label> <input class="input" type="text" name="email" id="email" /> <br /> </li>
+<li> <label  for="subject"class="label">*Subject</label> <input class="input" type="text" name="subject" id="subject" /> </li><br />
+<li> <label for="message" class="label">*Message</label> <textarea class="textarea" name="message" id="message"></textarea> </li>
+<li>    
+<li id="button">          
  <div id="capt" class="g-recaptcha" data-sitekey="6LffpAETAAAAAEWKV8RmANPphT3j16jApC-u6Xj1"></div>
  <input type="image" name="submit" id="sendmail" value="Send" src="Moxie/images/button.png" /> </li>
-<!--
-<li id="thankyou"><img src="images/thankyou.png" mce_src="images/thankyou.png" /></li>
--->
-<li id="thankyou"> </li>
+
 </ul>
-<div id="response"></div>
+
+
+
 </form>
-<br />
 <div id="notice">*Required information.</div>
 <div id="aptbookingnotice">If booking an appointment, please list "appointment" in the subject line.</div>
-
-<!--<form id="formail" action="" method ="post"> 
-<table width="100%" style="border: 0px solid red;" mce_style="border: 0px solid red;" cellspacing="10" cellpadding="5">
-<tr>
-<td><label>*Name : </label> <input type="text" name="name" id="name" class="inputtext" /></td>
-<td valign="top" rowspan="3" align="right"><label style="text-align: left;padding-left: 6px;" mce_style="text-align: left;padding-left: 6px;">Message :</label> <textarea name="text2" id="text2" cols="40" rows="8" style="border-width: 0px;" mce_style="border-width: 0px;"></textarea></td>
-</tr>
-<tr>
-<td colspan="2"><label>*Email :</label> <input type="text" name="mail" id="mail" /></td>
-</tr>
-<tr>
-<td colspan="2"><label>*Subject : </label> <input type="text" name="subject" id="subject" /></td>
-</tr>
-<tr>
-<td colspan="2" align="right"><input type="image" name="sendmail" id="sendmail" src="images/button.png" mce_src="images/button.png" /></td>
-</tr>
-<tr>
-<td colspan="2" align="left">
-<div id="response"></div>
-</td>
-</tr>
-</table>
-</form>--></div>
 </div>
+
+
+</div>
+
+
 <div id="right"><img src="Moxie/images/contactrightw.png" width="214" height="204" style="margin-left:165px;"  />
-<img width="300" height="275" style="margin-top:42px; margin-left:80px;" src="Moxie/images/welcomeaud.png" /></div>
+<img  style="margin-top:42px; margin-left:120px;" width="300" height="230" src="Moxie/images/salonpic9.jpg" /></div>
 </div>
-
-<!--end contact--> <!--Start Contact2 Page--> <!--
-<div id="contact2" class="page">
-<div id="left">
-<div id="myform"><form method="post" action="contact.php" onsubmit="return:false" class="iform">
-<div id="messageOK">Thank you! Message Sent!</div>
-<div id="messageERROR">ERROR: Message Not Sent!</div>
-<ul>
-<li> <label>Name : </label> <input class="input1" type="text" name="name" id="name" /> <br /> </li>
-<li> <label>Email : </label> <input class="input2" type="text" name="email" id="email" /> <br /> </li>
-<li> <label>Subject : </label> <input class="input3" type="text" name="subject" id="subject" /> </li>
-<li> <label>Message : </label> <textarea class="itextarea" name="message" id="message"></textarea> </li>
-<li id="button"> <input type="image" name="send" src="images/button.png" mce_src="images/button.png" width="60" height="35" onclick="sendForm()" /> </li>
-<li id="thankyou"><img src="images/thankyou.png" mce_src="images/thankyou.png" /></li>
-</ul>
-</form></div>
-</div>
-<div id="right"><img src="images/contactright.png" mce_src="images/contactright.png" width="214" height="204" /></div>
-</div>
--->
-          <!--end contact2-->
-
-
-
-
 
 <!--end home--></div>
 
