@@ -103,8 +103,11 @@ margin-top:30px;
 }
 #sendmail{
 	margin-top: 12px;
+margin-left:42px;
 	display: block;
 }
+
+
 #response{
 	display: none;
 	padding-left: 49px;
@@ -127,7 +130,6 @@ margin-top:30px;
 
 #moxie_title {
 font-family: 'Dancing Script', cursive;
-
 }
 
 .anfang1 {
@@ -156,6 +158,15 @@ font-family: 'Dancing Script', cursive;
 letter-spacing:1px;
     text-shadow: 1px 1px 1px #005356; 
 margin-bottom:55px;   
+}
+
+#contactHeading{
+text-align:center;
+	font-family: "SixCaps";
+	font-size:70px;
+letter-spacing:1px;
+    text-shadow: 1px 1px 1px #005356; 
+margin-bottom:25px;   
 }
 
 #reviewsHeading{
@@ -289,7 +300,8 @@ display:inline;
 font-weight:200;
 letter-spacing:1px;
 	font-family: 'Lobster Two', cursive;
-	font-size:19px;
+font-style:italic;
+	font-size:18px;
     /*text-shadow: 1px 1px 1px #111;*/
 	/*background-image:url(images/hometext.png);
 	background-repeat:no-repeat;*/
@@ -300,7 +312,7 @@ text-shadow: 1px 1px 1px #005356;
 #kar {
 float:left;
 position:relative;
-margin-top:68px;
+margin-top:86px;
 width:400px;
 margin-left:70px;
 padding:0;
@@ -315,7 +327,7 @@ margin-top:24px;
 
 #swimshape {
 color:#ff9cce;
-font-size:37px;
+font-size:28px;
 float:left;
 position:relative;
 text-align:center;
@@ -343,9 +355,9 @@ color:#fff;
 
 #servicesPoints{
     padding: 0px 0px 0px 0px;
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Dancing Script', cursive;
 letter-spacing:1px;
-	font-size:20px;
+	font-size:22px;
     text-shadow: 1px 1px 1px #005356;    
 }
 
@@ -374,42 +386,46 @@ padding-top:11px;
 letter-spacing:1px;
     text-shadow: 1px 1px 1px #005356;
     text-align: center;
-margin-bottom:44px;
+
 }
 #galleryHeading{
+position:relative;
 	font-family: "SixCaps";
 	font-size:70px;
 letter-spacing:2px;
     text-shadow: 1px 1px 1px #005356;
-    text-align: center;
+    text-align:center;
 margin-top:21px;
+margin-left:30px;
 }
 
 #phoneimg {
-margin-left:100px;
+margin-left:133px;
 
 }
 
 
 #notice_top{
 position: relative;
+text-align:center;
 padding-top: 10px;
 float:left;
+width:470px;
 margin-top:5px;
 margin-bottom:14px;
 font-family: 'Dancing Script', cursive;
 font-size: 20px;
 text-shadow: 1px 1px 1px #005356;
-line-height: 24px;
+line-height: 28px;
 }
 
 #notice{
     position:relative;
-    
-float:left;
-	margin: 1px 0;
+    float:left;
+    margin: 1px 0;
     font-family: "GoudyBookletter1911",serif;
-    font-size: 14px;margin-top:5px;
+    font-size: 14px;
+    margin-top:11px;
     text-shadow: 1px 1px 1px #005356;
 
 }
@@ -823,7 +839,7 @@ ul.menu li a:hover {background: none;}
  
 #content-container-gallery {
 	width:960px;
-	height:900px;
+	height:1100px;
 	margin:0 auto;
 	background-color: rgba(57, 183, 205, 0.2);
 	
@@ -840,8 +856,7 @@ overflow:hidden;
 }
 
 #content_gallery {
-	width:900px;
-	height:850px;
+	height:1100px;
 	padding:0px;
 padding-bottom:0px;
 	margin-bottom:0px;
@@ -915,7 +930,7 @@ height:100%;
 .g-recaptcha {
 float:left;
 margin-top:-10px;
-margin-left:-4px;
+margin-left:45px;
 padding-top:2px;
 padding-bottom:8px;
 }
@@ -1374,6 +1389,7 @@ margin-top:25px;
 }
 label {
 	display:block;
+margin-top:13px;
 	font-size:14px;
 	font-weight:bold;
 	padding:0px 0px 5px 0px;
@@ -1389,7 +1405,7 @@ height:600px;
 	top:10px;
 	display:inline-block;
 	/*	font-size:1.4em;*/
-	padding:5px;clear:none;padding-left:15px;
+	padding:5px;clear:none;padding-left:50px;
     
 }
 
@@ -1408,7 +1424,8 @@ height:600px;
 display:inline-block;
 	/*	font-size:1.4em;*/
 	padding:5px;
-margin-left:5px;
+margin-left:55px;
+margin-top:7px;
 	background:#ffffff;
 	color:#222222;
 	width:360px;
@@ -1425,8 +1442,9 @@ display:inline-block;
 	padding:5px;
 	background:#ffffff;
 	color:#222222;
-margin-left:5px;
-	width:360px;
+margin-left:55px;
+margin-top:7px;
+	width:370px;
 	height:80px;
 }
 #myform #button {
