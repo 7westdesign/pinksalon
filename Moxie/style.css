@@ -905,6 +905,13 @@ padding:40px;
 	float:right;	
 }
 
+.moxoutline {
+padding:5px;
+width:830px;
+ height:430px;
+ border:1px solid #fff;
+
+}
 
 #home #slider {
 width:840px;
@@ -1534,10 +1541,18 @@ input.submit {
 	padding-left:40px;
 }
 #footer #right{
-	width:200px;
-	height:95px;
+
+	width:140px;
+	height:75px;
+padding-top:17px;
+padding-left:24px;
 	float:right;
 }
 
+.botlogo {
+margin:0;
+padding:0;
+width:105px; height:50px;
+}
 
 
