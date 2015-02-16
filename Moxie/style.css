@@ -128,6 +128,36 @@ margin-left:42px;
     
 }
 
+.specialties {
+font-family: 'Dancing Script', cursive;
+color:#fff;
+padding:4px;
+font-size:25px;
+padding-bottom:9px;
+margin-top:7px;
+padding-top:9px;
+font-weight:bold;
+margin-left:12px;
+color:gray;
+
+}
+
+.out {
+color:#999;
+
+}
+.special_list {
+color:#fff;
+list-style:none;
+font-family: 'Lobster Two', cursive;
+font-size:12px;
+width:230px;
+line-height:18px;
+margin-left:15px;
+font-size:14px;
+
+}
+
 #moxie_title {
 font-family: 'Dancing Script', cursive;
 }
@@ -158,6 +188,15 @@ font-family: 'Dancing Script', cursive;
 letter-spacing:1px;
     text-shadow: 1px 1px 1px #005356; 
 margin-bottom:55px;   
+}
+
+#stylistsHeading{
+	font-family: "SixCaps";
+	font-size:70px;
+letter-spacing:1px;
+    text-shadow: 1px 1px 1px #005356; 
+padding-bottom:33px;
+margin-left:0px;   
 }
 
 #contactHeading{
@@ -362,18 +401,18 @@ letter-spacing:1px;
 }
 
 .quoteimg {
-margin-bottom:215px;
+
 
 }
 
 .stylePoints{
-    padding: 0px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
 text-indent:14px;
 	font-family: 'Lobster Two', cursive;
-	font-size:19px;
+	font-size:16px;
 letter-spacing:1px;
     text-shadow: 1px 1px 1px #005356;
-padding-top:11px;    
+    
 }
 #servicesPoints li{
     list-style: disc;
@@ -383,6 +422,7 @@ padding-top:11px;
 #stylistsHeading{
 	font-family: "SixCaps";
 	font-size:70px;
+margin-bottom:33px;
 letter-spacing:1px;
     text-shadow: 1px 1px 1px #005356;
     text-align: center;
@@ -606,6 +646,31 @@ margin-left:2px;
 	margin: 0 auto;
 	color:#FFF;
 }
+
+#content {
+	width:900px;
+	height:690px;
+	padding:0px 0px 0px;
+	margin:10px auto 10px;
+overflow:hidden;
+	
+}
+
+#content-stylists {
+	width:900px;
+	height:900px;
+	padding:0px 0px 0px;
+	margin:10px auto 10px;
+overflow:hidden;
+}
+
+#content-container-stylists {
+	width:960px;
+	height:900px;
+	margin:0 auto;
+	background-color: rgba(57, 183, 205, 0.2);
+}
+
 /*Navigation*/
 #navcontainer {
 	position:relative;
@@ -834,6 +899,7 @@ ul.menu li a:hover {background: none;}
 	margin:0 auto;
 	background-color: rgba(57, 183, 205, 0.2);
 }
+
 
 
  
@@ -1088,6 +1154,7 @@ position:relative;
 #stylists {
 	position:relative;
 	width:820px;
+height:950px;
 	float:left;
 	/*background-image:url(images/stylists1.png);
 	background-repeat: no-repeat;*/
@@ -1115,6 +1182,8 @@ margin-top:25px;
 #kari {
 	position:relative;
 	float:left;
+width:100%;
+height:900px;
 }
 #kari #left {
 	width:418px;
@@ -1130,6 +1199,8 @@ margin-top:25px;
 #julz {
 	position:relative;
 	float:left;
+width:100%;
+height:900px;
 }
 #julz #left {
 	width:418px;
@@ -1145,6 +1216,8 @@ margin-top:25px;
 #stacey {
 	position:relative;
 	float:left;
+width:100%;
+height:900px;
 }
 #stacey #left {
 	width:418px;
@@ -1160,6 +1233,7 @@ margin-top:25px;
 #stylists2 {
 	position:relative;
 	width:820px;
+height:950px;
 	float:left;
 	/*background-image:url(images/stylists2.png);
 		background-repeat: no-repeat;*/
@@ -1186,6 +1260,8 @@ margin-top:25px;	width:250px;
 #jenifer {
 	position:relative;
 	float:left;
+width:100%;
+height:900px;
 }
 #jenifer #left {
 	width:418px;
@@ -1201,6 +1277,8 @@ margin-top:25px;	width:250px;
 #adrianne {
 	position:relative;
 	float:left;
+width:100%;
+height:900px;
 }
 #adrianne #left {
 	width:460px;
@@ -1216,6 +1294,8 @@ margin-top:25px;	width:250px;
 #brandy {
 	position:relative;
 	float:left;
+width:100%;
+height:900px;
 }
 #brandy #left {
 	width:444px;
@@ -1231,6 +1311,7 @@ margin-top:25px;	width:250px;
 #stylists3 {
 	position:relative;
 	width:820px;
+height:950px;
 	float:left;
 	/*background-image:url(images/stylists2.png);
 	background-repeat: no-repeat;*/
@@ -1258,6 +1339,8 @@ margin-top:25px;
 #nathan {
 	position:relative;
 	float:left;
+width:100%;
+height:900px;
 }
 #nathan #left {
 	width:458px;
@@ -1273,6 +1356,8 @@ margin-top:25px;
 #blayke {
 	position:relative;
 	float:left;
+width:100%;
+height:900px;
 }
 #blayke #left {
 	width:435px;
@@ -1288,6 +1373,8 @@ margin-top:25px;
 #starr {
 	position:relative;
 	float:left;
+width:100%;
+height:900px;
 }
 #starr #left {
 	width:418px;
@@ -1306,11 +1393,14 @@ margin-top:25px;
 	height:30px;*/
 	width:72px;
 	height:51px;
+        margin-top:77px;
+
 }
 .moreback{
 	float:right;
 	width:72px;
 	height:51px;
+padding-top:33px;
 }
 
 /*End Stylists*/
