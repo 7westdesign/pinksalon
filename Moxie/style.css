@@ -130,24 +130,30 @@ margin-left:42px;
 
 .specialties {
 font-family: 'Dancing Script', cursive;
-color:#fff;
 padding:4px;
 font-size:25px;
 padding-bottom:9px;
-margin-top:7px;
-padding-top:9px;
+margin-top:41px;
+width:100px;
+padding:9px;
+padding-top:2px;
+padding-bottom:2px;
 font-weight:bold;
 margin-left:12px;
-color:gray;
+color:#ff83c1;
+background-color: rgba(0, 0, 0, 0.2);
+
 
 }
 
 .out {
-color:#999;
+color:#ff83c1;
+    text-shadow: 1px 1px 1px #222;
 
 }
 .special_list {
 color:#fff;
+margin-top:9px;
 list-style:none;
 font-family: 'Lobster Two', cursive;
 font-size:12px;
@@ -436,7 +442,8 @@ letter-spacing:2px;
     text-shadow: 1px 1px 1px #005356;
     text-align:center;
 margin-top:21px;
-margin-left:30px;
+margin-bottom:70px;
+
 }
 
 #phoneimg {
@@ -658,7 +665,7 @@ overflow:hidden;
 
 #content-stylists {
 	width:900px;
-	height:900px;
+	height:970px;
 	padding:0px 0px 0px;
 	margin:10px auto 10px;
 overflow:hidden;
@@ -666,7 +673,7 @@ overflow:hidden;
 
 #content-container-stylists {
 	width:960px;
-	height:900px;
+	height:970px;
 	margin:0 auto;
 	background-color: rgba(57, 183, 205, 0.2);
 }
@@ -905,7 +912,7 @@ ul.menu li a:hover {background: none;}
  
 #content-container-gallery {
 	width:960px;
-	height:1100px;
+	height:1200px;
 	margin:0 auto;
 	background-color: rgba(57, 183, 205, 0.2);
 	
@@ -922,7 +929,7 @@ overflow:hidden;
 }
 
 #content_gallery {
-	height:1100px;
+	height:1200px;
 	padding:0px;
 padding-bottom:0px;
 	margin-bottom:0px;
@@ -1093,7 +1100,21 @@ padding:40px;
         margin-left:30px;
 margin-bottom:0px;
         height:1000px;
+width:820px;
 }
+
+#page2{
+	/*background-image:url(images/gallery-bg.png);
+	background-repeat: no-repeat;*/
+	position:relative;
+	float:left;
+        margin-left:30px;
+margin-bottom:0px;
+        height:1000px;
+width:820px;
+}
+
+
 #gallery #center{
 margin-top:25px;
 margin-left:10px;
@@ -1154,7 +1175,7 @@ position:relative;
 #stylists {
 	position:relative;
 	width:820px;
-height:950px;
+height:970px;
 	float:left;
 	/*background-image:url(images/stylists1.png);
 	background-repeat: no-repeat;*/
@@ -1233,7 +1254,7 @@ height:900px;
 #stylists2 {
 	position:relative;
 	width:820px;
-height:950px;
+height:970px;
 	float:left;
 	/*background-image:url(images/stylists2.png);
 		background-repeat: no-repeat;*/
@@ -1309,9 +1330,10 @@ height:900px;
 	margin-left:75px;
 }
 #stylists3 {
+
 	position:relative;
 	width:820px;
-height:950px;
+height:970px;
 	float:left;
 	/*background-image:url(images/stylists2.png);
 	background-repeat: no-repeat;*/
@@ -1396,11 +1418,22 @@ height:900px;
         margin-top:77px;
 
 }
+.more2{
+	float:right;
+clear:both;
+	/*width:30px;
+	height:30px;*/
+	width:72px;
+	height:51px;
+        margin-top:68px;
+margin-right:100px;
+
+}
 .moreback{
 	float:right;
 	width:72px;
 	height:51px;
-padding-top:33px;
+padding-top:44px;
 }
 
 /*End Stylists*/
