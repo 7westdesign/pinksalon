@@ -142,12 +142,15 @@ font-weight:bold;
 margin-left:12px;
 color:#ff83c1;
 background-color: rgba(0, 0, 0, 0.2);
+}
 
+.pink {
+color:#ff83c1;
 
 }
 
 .out {
-color:#ff83c1;
+color:#83c1ff;
     text-shadow: 1px 1px 1px #222;
 
 }
@@ -311,7 +314,7 @@ margin-bottom:8px;
 }
 
 #yelpwidget a {
-color:#E32636;
+color:#ff50a8;
 font-weight:bold;
 }
 #yelpwidget a:hover {
@@ -930,6 +933,7 @@ overflow:hidden;
 
 #content_gallery {
 	height:1200px;
+width:960px;
 	padding:0px;
 padding-bottom:0px;
 	margin-bottom:0px;
@@ -1099,8 +1103,17 @@ padding:40px;
 	float:left;
         margin-left:30px;
 margin-bottom:0px;
-        height:1000px;
+        height:1100px;
 width:820px;
+}
+
+#gallery2 {
+	position:relative;
+	width:820px;
+height:1100px;
+	float:left;
+	/*background-image:url(images/stylists2.png);
+		background-repeat: no-repeat;*/
 }
 
 #page2{
@@ -1126,6 +1139,10 @@ margin-left:10px;
 .ultra {
 margin-left:30px;
 padding-bottom:2px;
+}
+
+.gal2 {margin-left:54px;
+
 }
 .gal {
 float:left;
@@ -1259,6 +1276,8 @@ height:970px;
 	/*background-image:url(images/stylists2.png);
 		background-repeat: no-repeat;*/
 }
+
+
 #stylists2 #left{
 margin-top:25px;
 margin-right:25px;
@@ -1425,9 +1444,14 @@ clear:both;
 	height:30px;*/
 	width:72px;
 	height:51px;
-        margin-top:68px;
-margin-right:100px;
+        margin-top:44px;
 
+}
+
+#back2{
+	width:59px;
+	height:24px;
+float:right;margin-top:22px;
 }
 .moreback{
 	float:right;
@@ -1641,7 +1665,7 @@ input.submit {
 #footer-wrap{
 	width:100%;
 	height:112px;
-	background-image:url(images/footer-bg.png);
+	background-image:url(images/footer-bg8.png);
 	background-repeat:repeat;
 
 }
@@ -1676,6 +1700,7 @@ padding-left:24px;
 margin:0;
 padding:0;
 width:105px; height:50px;
+margin-top:-10px;
 }
 
 
