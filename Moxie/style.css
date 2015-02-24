@@ -144,6 +144,8 @@ color:#ff83c1;
 background-color: rgba(0, 0, 0, 0.2);
 }
 
+.moxie_title {color:#ff83c1;padding-bottom:17px;padding-top:23px;}
+
 .pink {
 color:#ff83c1;
 
@@ -229,7 +231,7 @@ text-align:center;
 
 #content_container_home {
 	width:980px;
-height:2100px;
+height:2500px;
 	margin:0 auto;
 background-image:url();
  background-size: 980px 2100px auto;
@@ -255,7 +257,7 @@ margin-top:30px;
 
 #content_home {
 	width:980px;
-	height:2100px;
+	height:2500px;
 	padding:0px;
 	margin:10px auto 10px;
 overflow:hidden;
@@ -316,6 +318,7 @@ margin-bottom:8px;
 #yelpwidget a {
 color:#ff50a8;
 font-weight:bold;
+text-shadow: 1px 1px 1px #005356; 
 }
 #yelpwidget a:hover {
 color:#fff;
@@ -344,7 +347,7 @@ display:inline;
     padding-right: 10px;
     text-align: justify;
 	width:500px;
-	height:480px;
+	height:930px;
 font-weight:200;
 letter-spacing:1px;
 	font-family: 'Lobster Two', cursive;
@@ -381,19 +384,23 @@ position:relative;
 text-align:center;
 font-family: 'Euphoria Script', cursive;
 width:450px;
-margin-top:12px;
+height:40px;
+margin-top:45px;
+margin-bottom:58px;
 margin-left:33px;
 
 }
 #karwords {
 float:left;
+clear:both;
 position:relative;
-margin-top:77px;
+margin-top:200px;
 margin-left:33px;
 text-align:center;
 padding:0;
 font-size:25px;
 font-weight:500;
+height:300px;
 width:450px;
 text-shadow: 1px 1px 1px #005356;
 font-family: 'Euphoria Script', cursive;
@@ -1174,9 +1181,9 @@ letter-spacing:1px;
 #left_moxie {
 float:left;
 position:relative;
-
 padding-left:10px;
 width:500px;
+height:auto;
 }
 
 .fb-like {
