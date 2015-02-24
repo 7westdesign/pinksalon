@@ -1178,6 +1178,17 @@ letter-spacing:1px;
 
 }
 
+#FacebookHeading {
+margin-top:44px;
+margin-bottom:24px;
+text-align:center;
+letter-spacing:1px;
+	font-family: "SixCaps";
+	font-size:65px;
+    text-shadow: 1px 1px 1px #005356;    
+
+}
+
 #left_moxie {
 float:left;
 position:relative;
