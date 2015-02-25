@@ -235,7 +235,7 @@ font-family: "SixCaps";
 font-size:70px;
 text-shadow: 1px 1px 1px #005356; 
 letter-spacing:1px;
-margin-top:165px; 
+margin-top:144px; 
 text-align:center;
 }
 
@@ -310,9 +310,9 @@ margin-left:auto;
 margin-right:auto;
 float:center;
 margin-top:33px;
-width:400px;
+width:420px;
 padding-top:30px;
-padding-left:30px;
+padding-left:40px;
 line-height:22px;
 font-weight:200;
 font-family: 'Lobster Two', cursive;
@@ -322,8 +322,9 @@ background-color:rgba(255, 255, 255, 0.2);
 }
 
 .serviceslist {
-margin-bottom:8px;
-text-shadow: 1px 1px 1px #003a3c;
+margin-bottom:8px;font-weight:600;
+color:#ffb6db;
+text-shadow: 1px 1px 1px #001819;
 margin-left:11px;
 }
 
