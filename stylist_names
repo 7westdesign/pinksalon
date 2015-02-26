@@ -1,0 +1,18 @@
+<!--Start Stylists1 Page--> <!--Start Stylists1 Page-->
+<div class="page" id="stylists">
+<div id="stylistsHeading">Meet our Stylists</div>
+<div id="left"><a href="stylists.html#kari"><img width="250" height="350" src="Moxie/images/karihnew.png" /></a> </div>
+<div id="center"><a href="stylists.html#julz"><img width="250" height="350" src="Moxie/images/julz.png" /></a> </div>
+<div id="right"><a href="stylists.html#jenifer"><img src="Moxie/images/jenifer.png" width="250" height="350" /></a>
+</div>
+
+<div id="left"><a href="stylists.html#adrianne"><img width="250" height="350" src="Moxie/images/adnewh.png" /></a></div>
+<div id="center"><a href="stylists.html#stacey"><img src="Moxie/images/stacey.png" width="250" height="350" /></a></div>
+<div id="right"><a href="stylists.html#brandy"><img src="Moxie/images/brandy.png" width="250" height="350" /></a></div>
+
+<div id="left"><a href="stylists.html#nathan"><img src="Moxie/images/nathanhw.png" width="250" height="350" /></a> </div>
+<div id="center"><a href="stylists.html#blayke"><img src="Moxie/images/blayke.png" width="250" height="350" /></a> </div>
+<div id="right"><a href="stylists.html#starr"><img src="Moxie/images/starrhw.png" width="250" height="350" /></a></div>
+
+</div>
+
