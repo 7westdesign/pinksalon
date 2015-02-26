@@ -710,19 +710,10 @@ overflow:hidden;
 	
 }
 
-#content-stylists {
-	width:900px;
-	height:970px;
-	padding:0px 0px 0px;
-	margin:10px auto 10px;
-overflow:hidden;
-}
+.left_moxie {
+padding-bottom:40px;
 
-#content-container-stylists {
-	width:960px;
-	height:970px;
-	margin:0 auto;
-	background-color: rgba(57, 183, 205, 0.2);
+
 }
 
 /*Navigation*/
@@ -1253,7 +1244,7 @@ position:relative;
 #stylists {
 	position:relative;
 	width:820px;
-height:970px;
+height:3000px;
 	float:left;
 	/*background-image:url(images/stylists1.png);
 	background-repeat: no-repeat;*/
@@ -1278,6 +1269,39 @@ margin-top:25px;
 	height:550px;
 	float:left;
 }
+
+#content-stylists {
+	width:900px;
+	height:3700px;
+	padding:0px 0px 0px;
+	margin:10px auto 10px;
+overflow:hidden;
+}
+
+#content-container-stylists {
+	width:960px;
+	height:3700px;
+	margin:0 auto;
+	background-color: rgba(57, 183, 205, 0.2);
+}
+
+#content-container-moxiegirls {
+width:960px;
+	height:900px;
+	margin:0 auto;
+	background-color: rgba(57, 183, 205, 0.2);
+
+}
+
+#content_moxiegirls {
+width:900px;
+	height:900px;
+	padding:0px 0px 0px;
+	margin:10px auto 10px;
+overflow:hidden;
+
+}
+
 #kari {
 	position:relative;
 	float:left;
