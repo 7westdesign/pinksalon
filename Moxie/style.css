@@ -163,9 +163,9 @@ list-style:none;
 font-family: 'Lobster Two', cursive;
 font-size:12px;
 width:230px;
-line-height:18px;
+line-height:150%;
 margin-left:15px;
-font-size:14px;
+font-size:15px;
 
 }
 
@@ -429,7 +429,8 @@ width:410px;
 }
 
 #services_opening {
-font-weight:200;width:400px;
+width:400px;
+font-weight:200;
 height:400px;
 letter-spacing:1px;
 font-family: 'Lobster Two', cursive;
@@ -711,8 +712,37 @@ overflow:hidden;
 }
 
 .left_moxie {
+float:left;
+clear:both;
 padding-bottom:40px;
+width:250px;
 
+}
+
+.aboutthegirls {
+font-weight:200;
+
+letter-spacing:1px;
+font-family: 'Lobster Two', cursive;
+font-style:italic;
+	font-size:17px;
+    /*text-shadow: 1px 1px 1px #111;*/
+	/*background-image:url(images/hometext.png);
+	background-repeat:no-repeat;*/
+color:#ffcfe7;
+text-shadow: 1px 1px 1px #111;  
+padding-left:50px;
+line-height:150%;
+text-indent:20px;
+width:500px;
+
+}
+
+.right_moxie {
+float:left;
+padding-top:65px;
+padding-bottom:40px;
+width:530px;
 
 }
 
@@ -1272,7 +1302,7 @@ margin-top:25px;
 
 #content-stylists {
 	width:900px;
-	height:3700px;
+	height:3900px;
 	padding:0px 0px 0px;
 	margin:10px auto 10px;
 overflow:hidden;
@@ -1280,7 +1310,7 @@ overflow:hidden;
 
 #content-container-stylists {
 	width:960px;
-	height:3700px;
+	height:3900px;
 	margin:0 auto;
 	background-color: rgba(57, 183, 205, 0.2);
 }
