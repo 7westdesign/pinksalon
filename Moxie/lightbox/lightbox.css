@@ -3,7 +3,7 @@
 	padding: 10px;
 	border-bottom: 2px solid #666;
 	border-right: 2px solid #666;
-        color:#8B4789;
+        color:#888;
         
 	}
 
@@ -11,8 +11,8 @@
 	font-size: 0.8em;
 	padding-top: 0.4em;
 	}	
-#lightboxCaption{ float: left; margin-left:4px; font-family: 'Dancing Script', cursive;
-font-size:19px; font-weight:400;
+#lightboxCaption{ float: left; margin-left:4px; font-family: 'Lobster Two', cursive;
+font-size:17px; font-weight:400;
 line-height:20px; padding:2px 4px 2px 4px; }
 #keyboardMsg{ float: right; }
 #closeButton{ top: 5px; right: 5px; }

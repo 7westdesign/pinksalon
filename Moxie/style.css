@@ -154,7 +154,18 @@ color:#ff83c1;
 .out {
 color:#83c1ff;
     text-shadow: 1px 1px 1px #222;
+}
 
+.meetmoxie {
+color:#c1ff83;
+}
+
+.moxy{
+color:#c1ff83;
+}
+
+.meetmoxie:hover {
+color:#ffc183;
 }
 .special_list {
 color:#fff;
@@ -200,7 +211,7 @@ float:left;
 letter-spacing:1px;
     text-shadow: 1px 1px 1px #005356; 
 margin-bottom:55px; 
-padding-top:100px;  
+padding-top:130px;  
 }
 
 #servicesHeading2{
@@ -323,9 +334,13 @@ background-color:rgba(255, 255, 255, 0.2);
 
 .serviceslist {
 margin-bottom:8px;font-weight:600;
-color:#ffb6db;
-text-shadow: 1px 1px 1px #001819;
+color:#9dceff;
+text-shadow: 1px 1px 1px #323232;
 margin-left:11px;
+}
+
+.ipink {
+color:#ffd0e7;
 }
 
 #yelpwidget a {
@@ -363,7 +378,7 @@ display:inline;
 font-weight:200;
 letter-spacing:1px;
 	font-family: 'Lobster Two', cursive;
-font-style:italic;
+font-style:normal;
 	font-size:18px;
     /*text-shadow: 1px 1px 1px #111;*/
 	/*background-image:url(images/hometext.png);
@@ -434,14 +449,14 @@ font-weight:200;
 height:400px;
 letter-spacing:1px;
 font-family: 'Lobster Two', cursive;
-font-style:italic;
+font-style:normal;
 	font-size:18px;
     /*text-shadow: 1px 1px 1px #111;*/
 	/*background-image:url(images/hometext.png);
 	background-repeat:no-repeat;*/
 color:#ffcfe7;
 text-shadow: 1px 1px 1px #00292b;      
-margin-bottom:30px;
+margin-bottom:50px;
 
 }
 
@@ -724,7 +739,7 @@ font-weight:200;
 
 letter-spacing:1px;
 font-family: 'Lobster Two', cursive;
-font-style:italic;
+font-style:normal;
 	font-size:17px;
     /*text-shadow: 1px 1px 1px #111;*/
 	/*background-image:url(images/hometext.png);
@@ -1235,6 +1250,7 @@ background:none;margin-right:35px;
 margin-top:18px;
 margin-bottom:24px;
 text-align:center;
+color:#83c1ff;
 letter-spacing:1px;
 	font-family: "SixCaps";
 	font-size:65px;
